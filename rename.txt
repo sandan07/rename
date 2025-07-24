@@ -16,7 +16,11 @@ Sono.Bisque.Doll.wa.Koi.wo.Suru.S02E(?=.*ADWeb) => 更衣人偶坠入爱河{[tmd
 My.DressUp.Darling.S02E(?=.*HamiVideo)(?=.*CHDWEB) => 更衣人偶坠入爱河{[tmdbid=123249;type=tv]}S02E
 My.Dress.Up.Darling.S02E(?=.*friDay)(?=.*CHDWEB) => 更衣人偶坠入爱河{[tmdbid=123249;type=tv]}S01E && S01E <> 1080p >> EP+12
 My.Dress-Up.Darling.S02E(?=.*NF)(?=.*HHWEB) => 更衣人偶坠入爱河{[tmdbid=123249;type=tv]}S01E && S01E <> 2024 >> EP+12
-My.DressUp.Darling.S02E(?=.*CATCHPLAY|KKTV|MyVideo)(?=.*CHDWEB) => 更衣人偶坠入爱河{[tmdbid=123249;type=tv]}S01E && S01E <> 1080p >> EP+12
+My.DressUp.Darling.S02E(?=.*CATCHPLAY)(?=.*CHDWEB) => 更衣人偶坠入爱河{[tmdbid=123249;type=tv]}S01E && S01E <> 1080p >> EP+12
+My.DressUp.Darling.S02E(?=.*KKTV)(?=.*CHDWEB) => 更衣人偶坠入爱河{[tmdbid=123249;type=tv]}S01E && S01E <> 1080p >> EP+12
+
+My.DressUp.Darling.S02E(?=.*MyVideo)(?=.*CHDWEB) => 更衣人偶坠入爱河{[tmdbid=123249;type=tv]}S01E && S01E <> 1080p >> EP+12
+
 更衣人偶坠入爱河.My.Dress.Up.Darling.S02E(?=.*NF)(?=.*HDSWEB) => 更衣人偶坠入爱河{[tmdbid=123249;type=tv]}S01E && S01E <> 2025 >> EP+12
 
 #我们不可能成为恋人！绝对不行【ADWeb】
@@ -33,7 +37,14 @@ Soul.Land.Movie.Jian.Dao.Chen.Xin(?=.*ADWeb) => Douluo.Dalu.Movie.Kendo.Dust.Hea
 
 #怪兽8号 第二季【ADWeb】
 Kaijuu.8.gou.S02(?=.*ADWeb) => Kaijuu.8.gou.S01
+Kaiju.No.8.S02(?=.*CATCHPLAY)(?=.*CHDWEB) => Kaijuu.8.gou.S01 && S01E <> 1080p >> EP+11
+Kaiju.No.8.S02(?=.*MyVideo)(?=.*CHDWEB) => Kaijuu.8.gou.S01 && S01E <> 1080p >> EP+11
+怪兽8号.Kaiju.No.8.S02 => Kaijuu.8.gou.S01 && S01E <> 2025 >> EP+11
+Kaiju.No.8.S02(?=.*Disney)(?=.*CHDWEB) => Kaijuu.8.gou.S01 && S01E <> Episode >> EP+11
 (?<=Kaijuu.8.gou.S01.*?)2025 => 2024
+
+Kaiju.No.8.S02(?=.*NF)(?=.*HHWEB) => Kaijuu.8.gou.S01
+
 
 #国色芳华第二季【ADWeb】
 In.the.Name.of.Blossom.S01 => In.the.Name.of.Blossom.S02
