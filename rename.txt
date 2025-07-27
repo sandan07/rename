@@ -1,4 +1,7 @@
 #
+
+华山论剑之九阴真经.Duel.on.Mount.Hua_.Nine.Yin.True.Sutra.S01 => 金庸武侠世界.The.Legend.of.Heroes.S02
+
 #租借女友第四季【ADWeb】
 Kanojo.Okarishimasu.S04E(?=.*ADWeb) => Kanojo.Okarishimasu.{[tmdbid=96316;type=tv;s=1]}.S01E && S01E <> 2025 >> EP+36
 
