@@ -1,5 +1,5 @@
 我为刀宗.I.Am.the.Blade => 我为刀宗{[tmdbid=294747;type=tv]}
-
+我为刀宗.I.am.the.Blade => 我为刀宗{[tmdbid=294747;type=tv]}
 #
 Rascal.Does.Not.Dream.of.Santa.Claus.S01 => Rascal.Does.Not.Dream.of.Bunny.Girl.Senpai.S02
 
