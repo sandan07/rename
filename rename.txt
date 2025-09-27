@@ -1,3 +1,5 @@
+One\.Piece\.S01 => One Piece S22
+
 90.Day.Fiance.Happily.Ever.After => {[tmdbid=67757;type=tv]}
 到美国结婚去：婚后篇 => {[tmdbid=67757;type=tv]}
 
@@ -63,7 +65,7 @@ In.the.Name.of.Blossom.S01 => In.the.Name.of.Blossom.S02
 Flourished.Peony.S02 => In.the.Name.of.Blossom.S02
 
 #QHstudIo海贼王
-One.Piece.1999.S22(?=.*QHstudIo) => One.Piece.1999.S01
+#One.Piece.1999.S22(?=.*QHstudIo) => One.Piece.1999.S01
 
 乘风破浪的姐姐.Sisters.Who.Make.Waves.S06 => 乘风2025.S01
 
@@ -210,7 +212,7 @@ S(eason)? ?0?([2-9]) *\[(OVA|OAD)0?\(?(\d)?\)?\] => S0E\2\4
 酷漫(?![\u4e00-\u9fa5]) => 酷漫字幕组
 (?i)(CHS|GB|SC)-JA?PN? => 简日双语
 \b康复中心\b => 康复中心字幕组
-#One\.Piece\.S01 => One Piece S22
+
 (?i)(\[轻之国度字幕组\].*)(?=\.mp4) => \1.简体内嵌
 (?<=[a-zA-Z\u3040-\u309F\u30A0-\u30FF\u31F0-\u31FF\u4e00-\u9fa5])_(0?\d)(?=[\W_]((\[E?\d{1,4}\])|(\d{1,4})|(第\d+(集|话)))[\W_]) => S\1
 \b冷番补完\b => 冷番补完字幕组
