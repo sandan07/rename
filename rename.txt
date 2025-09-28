@@ -1,4 +1,4 @@
-
+Takryu => {[tmdbid=230926;type=tv]}
 Salon.De.Dol.You.Talk.a.LOT => 살롱드돌
 One\.Piece\.S01 => One Piece S22
 
