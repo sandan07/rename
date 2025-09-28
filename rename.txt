@@ -1,3 +1,5 @@
+
+Salon.De.Dol.You.Talk.a.LOT => 살롱드돌
 One\.Piece\.S01 => One Piece S22
 
 90.Day.Fiance.Happily.Ever.After => {[tmdbid=67757;type=tv]}
