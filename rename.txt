@@ -1,3 +1,12 @@
+The.Hero.Who.Has.No.Class => Hero Without a Class
+
+Saiko.no.Obahan.Nakajima.Haruko.Season.3.S01 => Saiko.no.Obahan.Nakajima.Haruko.S03
+
+EXchange(?=.*JKCT) => 换乘恋爱
+Takryu => {[tmdbid=230926;type=tv]}
+Salon.De.Dol.You.Talk.a.LOT => 살롱드돌
+
+
 aka.Charlie.Sheen => {[tmdbid=298234;type=tv]}
 Takryu => {[tmdbid=230926;type=tv]}
 Salon.De.Dol.You.Talk.a.LOT => 살롱드돌
