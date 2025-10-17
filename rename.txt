@@ -1,3 +1,4 @@
+For.Eagle.Brothers.Bilingual(?=.*CHDWEB) => For.Eagle.Brothers
 
 The.Cheetah => 猎豹
 Lie.Bao(?=.*CHDWEB) => 猎豹
