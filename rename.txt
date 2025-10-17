@@ -1,4 +1,5 @@
 Escape.Sore.wa.Yukai.no.Hazudatta => escape
+escape(?=.*CHDWEB) => {[tmdbid=299799;type=tv]}
 For.Eagle.Brothers.Bilingual(?=.*CHDWEB) => For.Eagle.Brothers
 
 The.Cheetah => 猎豹
