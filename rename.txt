@@ -1,3 +1,8 @@
+Kinkyu.Torishirabeshitsu.Season.5 => Kinkyu.Torishirabeshitsu
+Escape.Sore.wa.Yukai.no.Hazudatta => escape
+escape(?=.*CHDWEB) => {[tmdbid=299799;type=tv]}
+Saiko.no.Obahan.Nakajima.Haruko.Season.3.S01 => Saiko.no.Obahan.Nakajima.Haruko.S03
+
 Escape.Sore.wa.Yukai.no.Hazudatta => escape
 escape(?=.*CHDWEB) => {[tmdbid=299799;type=tv]}
 For.Eagle.Brothers.Bilingual(?=.*CHDWEB) => For.Eagle.Brothers
