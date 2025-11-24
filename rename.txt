@@ -1,3 +1,5 @@
+Running.Man => {[tmdbid=33238;type=tv]}
+
 Ghosts.US => Ghosts
 Season
 Bilingual
