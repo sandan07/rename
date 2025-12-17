@@ -1,3 +1,5 @@
+Season.3.S01 => S03
+
 Running.Man => {[tmdbid=33238;type=tv]}
 
 Ghosts.US => Ghosts
