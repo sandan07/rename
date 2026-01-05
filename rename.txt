@@ -1,3 +1,6 @@
+Apotheosis.S03 => Apotheosis.S01 && S01 <> 2025 >> EP+104
+(?<=Apotheosis.*?)2025(?=.*ADWeb) => 2022
+
 Player.Yuri => {[tmdbid=291459;type=tv]}
 
 Season.3.S01 => S03
