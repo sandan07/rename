@@ -1,3 +1,5 @@
+Trigun.Stargaze.S01 => Trigun.Stargaze.S02
+
 斗破苍穹年番 => {[tmdbid=79481;type=tv]}
 Sword.and.Fairy.3 => {[tmdbid=233295;type=tv]}
 Chinese.Paladin(?=.*2025) => {[tmdbid=233295;type=tv]}
