@@ -1,3 +1,6 @@
+我推的孩子 => {[tmdbid=203737;type=tv]}
+Oshi.no.Ko => {[tmdbid=203737;type=tv]}
+
 \[CHT\] => [繁体字幕]
 
 Purple.River => {[tmdbid=153869;type=tv]}
