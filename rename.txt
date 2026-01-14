@@ -1,5 +1,6 @@
+Oshi.no.Ko.S03 => Oshi.no.Ko.{[tmdbid=203737;type=tv]}.S01E && S01E <> 2026 >> EP+24
+Kanojo.Okarishimasu.S04E(?=.*ADWeb) => Kanojo.Okarishimasu.{[tmdbid=96316;type=tv;s=1]}.S01E && S01E <> 2025 >> EP+36
 我推的孩子 => {[tmdbid=203737;type=tv]}
-Oshi.no.Ko => {[tmdbid=203737;type=tv]}
 
 \[CHT\] => [繁体字幕]
 
