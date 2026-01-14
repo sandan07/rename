@@ -1,4 +1,4 @@
-
+\[CHT\] => [繁体字幕]
 
 Purple.River => {[tmdbid=153869;type=tv]}
 紫川(?=.*2025) => {[tmdbid=153869;type=tv]}
