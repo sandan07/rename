@@ -294,7 +294,6 @@ S(eason)? ?0?([2-9]) *\[(OVA|OAD)0?\(?(\d)?\)?\] => S0E\2\4
 WMSUB-\d\dth => 风车字幕组
 (?i)^[\W_](.*?(?:社|组|組|队|隊|屋|烤肉架|制作|动漫|動漫|同好會|同好会|学园|學園|Lab|Production|House|Subs?|Raws?|Studio))[\W_]+(?:[\W_]+\d{1,2}月(?:新?番|国漫)[\W_]+)?[\[|【](.*?)[\]|】] => [\1]\2
 \b(?i)dingsuihong\b.*\bTOC\b => 贩卖机汉化组
-\[CHT\] => [繁体内嵌]
 GreatMission字幕小隊 => GreatMission字幕小队
 Billion Meta Lab|\bBML\b => 亿次研同好会
 \bQBZ\b => 碧蓝档案情报站字幕组
