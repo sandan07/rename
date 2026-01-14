@@ -1,3 +1,5 @@
+
+
 Purple.River => {[tmdbid=153869;type=tv]}
 紫川(?=.*2025) => {[tmdbid=153869;type=tv]}
 
@@ -228,8 +230,6 @@ ASSx1 => 简体内封
 \[SweetSub\](.*)\[CHS\] => [SweetSub]\1[简日双语]
 × => x
 \[CHS\] => [简体内嵌]
-SRTx1 => 简体内封
-(SRTx2|SRT) => 简繁内封
 (?i)Season( *)0?(\d+) => S\2
 #(?<=[\W_])(CR|Baha|KKTV|Abema|B-Global|Sentai|MyVideo|AMZN|KKTV|friDay|DSNP|LINETV|NF|Viu)(?=[\W_]) => -\1
 (\[|【|&|x|×)DAY(】|]|&|x|×) => \1DAY字幕组\2
@@ -711,8 +711,6 @@ MSRSub&Todokoi => 野生菌字幕组&届恋字幕组
 (?i)\[JA?PN?(_|&|＆|\x20)?(SC|CHS|GB)\] => [简日双语]
 \[SweetSub\](.*)\[CHS\] => [SweetSub]\1[简日双语]
 \[CHS\] => [简体内嵌]
-SRTx1 => 简体内封
-(SRTx2|SRT) => 简繁内封
 (?i)Season( *)0?(\d+) => S\2
 #其他儿童动画
 #大耳朵图图
