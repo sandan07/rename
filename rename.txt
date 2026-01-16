@@ -1,3 +1,10 @@
+#咒术回战S03
+Jujutsu.Kaisen.S03E(?=.*DSNP)(?=.*HHWEB) => Jujutsu.Kaisen.S01E && S01E <> 2020 >> EP+47
+Jujutsu.Kaisen.S03E(?=.*(Baha|LINETV|Viu|CR))(?=.*ADWeb) => Jujutsu.Kaisen.S01E && S01E <> 2026 >> EP+47
+Jujutsu.Kaisen.S03E(?=.*Disney)(?=.*CHDWEB) => Jujutsu.Kaisen.S01E && S01E <> 1080p >> EP+47
+Jujutsu.Kaisen.S03E(?=.*IQ)(?=.*HDSWEB) => Jujutsu.Kaisen.S01E && S01E <> 2026 >> EP+47
+Jujutsu.Kaisen.S03E(?=.*NF)(?=.*CHDWEB) => Jujutsu.Kaisen.S01E
+
 Cardfight.Vanguard.Divinez.Genma.Seisen.hen.S01 => 卡片战斗先导者.overDress.S09
 Oshi.no.Ko.S03 => Oshi.no.Ko.{[tmdbid=203737;type=tv]}.S01E && S01E <> 2026 >> EP+24
 【我推的孩子】 => Oshi.no.Ko.{[tmdbid=203737;type=tv]}
