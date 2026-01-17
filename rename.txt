@@ -1,3 +1,5 @@
+Trigun.Stargaze.S01E(?=.*CHDWEB) => Trigun.Stargaze.S02E
+
 #咒术回战S03
 Jujutsu.Kaisen.S03E(?=.*DSNP)(?=.*HHWEB) => Jujutsu.Kaisen.S01E && S01E <> 2020 >> EP+47
 Jujutsu.Kaisen.S03E(?=.*(Baha|LINETV|Viu|CR))(?=.*ADWeb) => Jujutsu.Kaisen.S01E && S01E <> 2026 >> EP+47
