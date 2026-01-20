@@ -1,3 +1,5 @@
+卡片战斗先导者.CARDFIGHT.VANGUARD.S09(?=.*HDSWEB) => 卡片战斗先导者.overDress.S09
+
 Trigun.Stargaze.S01E(?=.*CHDWEB) => Trigun.Stargaze.S02E
 
 #咒术回战S03
