@@ -1,4 +1,5 @@
-卡片战斗先导者.CARDFIGHT.VANGUARD.S09(?=.*HDSWEB) => 卡片战斗先导者.overDress.S09
+卡片战斗先导者.CARDFIGHT.VANGUARD.S09(?=.*HDSWEB) => カードファイト!! ヴァンガード.S09
+Cardfight.Vanguard.Divinez.Genma.Seisen.hen.S01 => カードファイト!! ヴァンガード.S09
 
 Trigun.Stargaze.S01E(?=.*CHDWEB) => Trigun.Stargaze.S02E
 
@@ -9,7 +10,7 @@ Jujutsu.Kaisen.S03E(?=.*Disney)(?=.*CHDWEB) => Jujutsu.Kaisen.S01E && S01E <> 10
 Jujutsu.Kaisen.S03E(?=.*IQ)(?=.*HDSWEB) => Jujutsu.Kaisen.S01E && S01E <> 2026 >> EP+47
 Jujutsu.Kaisen.S03E(?=.*NF)(?=.*CHDWEB) => Jujutsu.Kaisen.S01E
 
-Cardfight.Vanguard.Divinez.Genma.Seisen.hen.S01 => 卡片战斗先导者.overDress.S09
+
 Oshi.no.Ko.S03 => Oshi.no.Ko.{[tmdbid=203737;type=tv]}.S01E && S01E <> 2026 >> EP+24
 【我推的孩子】 => Oshi.no.Ko.{[tmdbid=203737;type=tv]}
 
