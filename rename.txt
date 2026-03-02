@@ -1,3 +1,5 @@
+吞噬星空.Swallowed.Star.S07(?=.*ADWeb) => 吞噬星空.Swallowed.Star.S01
+
 卡片战斗先导者.CARDFIGHT.VANGUARD.S09(?=.*HDSWEB) => カードファイト!! ヴァンガード.S09
 Cardfight.Vanguard.Divinez.Genma.Seisen.hen.S01 => カードファイト!! ヴァンガード.S09
 
