@@ -29,6 +29,7 @@ Trigun.Stargaze.S01 => Trigun.Stargaze.S02
 Sword.and.Fairy.3 => {[tmdbid=233295;type=tv]}
 Chinese.Paladin(?=.*2025) => {[tmdbid=233295;type=tv]}
 Apotheosis.S03 => Apotheosis.S01 && S01 <> 2025 >> EP+104
+Apotheosis.S03(?=.*MWeb) => Apotheosis.S01 && S01 <> 2022 >> EP+104
 (?<=Apotheosis.*?)2025(?=.*ADWeb) => 2022
 
 Player.Yuri => {[tmdbid=291459;type=tv]}
