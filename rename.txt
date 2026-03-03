@@ -1,7 +1,7 @@
 Sword.and.Fairy.3.S03(?=.*MWeb) => Sword.and.Fairy.3.S01
 CARDFIGHT.VANGUARD.S05(?=.*MWeb) => CARDFIGHT.VANGUARD.S09
 Perfect.World.S06(?=.*MWeb) => Perfect.World.S01
-
+Cardfight.Vanguard.Divinez.S04(?=.*ADWeb) => CARDFIGHT.VANGUARD.S09
 吞噬星空.Swallowed.Star.S07(?=.*ADWeb) => 吞噬星空.Swallowed.Star.S01
 
 卡片战斗先导者.CARDFIGHT.VANGUARD.S09(?=.*HDSWEB) => カードファイト!! ヴァンガード.S09
