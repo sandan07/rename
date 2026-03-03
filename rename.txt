@@ -1,3 +1,8 @@
+Hells.Paradise.S02E(?=.*HHWEB) => Jigokuraku.S01E && S01E <> 2023 >> EP+13
+Jigokuraku.S02E(?=.*ADWeb) => Jigokuraku.S01E && S01E <> 2026 >> EP+13
+
+Hells.Paradise.Jigokuraku.S02(?=.*MWeb) => Hells.Paradise.Jigokuraku.S01
+
 Sword.and.Fairy.3.S03(?=.*MWeb) => Sword.and.Fairy.3.S01
 CARDFIGHT.VANGUARD.S05(?=.*MWeb) => CARDFIGHT.VANGUARD.S09
 Perfect.World.S06(?=.*MWeb) => Perfect.World.S01
