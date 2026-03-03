@@ -25,6 +25,8 @@ Purple.River => {[tmdbid=153869;type=tv]}
 
 Trigun.Stargaze.S01 => Trigun.Stargaze.S02
 
+Fights.Break.Sphere(?=.*MWeb) => {[tmdbid=79481;type=tv]}
+
 斗破苍穹年番 => {[tmdbid=79481;type=tv]}
 Sword.and.Fairy.3 => {[tmdbid=233295;type=tv]}
 Chinese.Paladin(?=.*2025) => {[tmdbid=233295;type=tv]}
