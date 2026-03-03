@@ -1,6 +1,6 @@
 Hells.Paradise.S02E(?=.*HHWEB) => Jigokuraku.S01E && S01E <> 2023 >> EP+13
 Jigokuraku.S02E(?=.*ADWeb) => Jigokuraku.S01E && S01E <> 2026 >> EP+13
-
+Tis.Time.for.Torture.Princess.S02E(?=.*MWeb) => Tis.Time.for.Torture.Princess.S02E && S02E <> 1080 >> EP-12
 Hells.Paradise.Jigokuraku.S02(?=.*MWeb) => Hells.Paradise.Jigokuraku.S01
 
 Sword.and.Fairy.3.S03(?=.*MWeb) => Sword.and.Fairy.3.S01
