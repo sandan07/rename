@@ -1,3 +1,4 @@
+(Dorohedoro)\.S02E(?=(?:13|14|15|16|17|18|19|20|21|22|23)(?:[._\ -]|$))(?=.*ADWeb) => \1.{[tmdbid=94404;type=tv]} S02E && S02E <> 2026 >> EP-12
 (Kanojo[._\ -]+Okarishimasu)\.S05E(?=.*ADWeb) => \1.{[tmdbid=96316;type=tv]} S01E && S01E <> 2026 >> EP+48
 
 Hells.Paradise.S02E(?=.*HHWEB) => Jigokuraku.S01E && S01E <> 2023 >> EP+13
