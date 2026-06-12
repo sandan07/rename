@@ -6,6 +6,7 @@
 (Re：从零开始的异世界生活[._\ -]+Re[._\ -]+ZERO[._\ -]+Starting[._\ -]+Life[._\ -]+in[._\ -]+Another[._\ -]+World)\.S04E(?=(?:01|02|03|04|05|06|07|08|09|10|11|12|13|14|15|16|17|18|19)(?:[._\ -]|$))(?=.*HDSWEB) => \1.{[tmdbid=65942;type=tv]} S01E && S01E <> 2026 >> EP+66
 (Re[._\ -]+ZERO[._\ -]+Starting[._\ -]+Life[._\ -]+in[._\ -]+Another[._\ -]+World)\.S04E(?=(?:67|68|69|70|71|72|73|74|75|76|77|78|79|80|81|82|83|84|85)(?:[._\ -]|$))(?=.*CHDWEB) => \1.{[tmdbid=65942;type=tv]} S01E
 
+One\.Piece\.S01(?=.*ADWeb) => One Piece S23
 
 A.Record.of.a.Mortal's.Journey.to.Immortality => A.Record.of.a.Mortal's.Journey.to.Immortality.{[tmdbid=106449;type=tv]}
 
@@ -95,7 +96,7 @@ Salon.De.Dol.You.Talk.a.LOT => 살롱드돌
 aka.Charlie.Sheen => {[tmdbid=298234;type=tv]}
 Takryu => {[tmdbid=230926;type=tv]}
 Salon.De.Dol.You.Talk.a.LOT => 살롱드돌
-One\.Piece\.S01 => One Piece S22
+
 
 90.Day.Fiance.Happily.Ever.After => {[tmdbid=67757;type=tv]}
 到美国结婚去：婚后篇 => {[tmdbid=67757;type=tv]}
@@ -161,8 +162,7 @@ In.the.Name.of.Blossom.S01 => In.the.Name.of.Blossom.S02
 
 Flourished.Peony.S02 => In.the.Name.of.Blossom.S02
 
-#QHstudIo海贼王
-#One.Piece.1999.S22(?=.*QHstudIo) => One.Piece.1999.S01
+
 
 乘风破浪的姐姐.Sisters.Who.Make.Waves.S06 => 乘风2025.S01
 
