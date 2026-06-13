@@ -1,3 +1,7 @@
+(Ascendance[._\ -]+of[._\ -]+a[._\ -]+Bookworm)\.S04E(?=(?:01|02|03|04|05|06|07|08|09|10|11|12)(?:[._\ -]|$))(?=.*ADWeb) => \1.{[tmdbid=91768;type=tv]} S02E
+(Honzuki[._\ -]+no[._\ -]+Gekokujou[._\ -]+Ryoushu[._\ -]+no[._\ -]+Youjo)\.S04E(?=(?:01|02|03|04|05|06|07|08|09|10|11|12)(?:[._\ -]|$))(?=.*ADWeb) => \1.{[tmdbid=91768;type=tv]} S02E
+(Honzuki[._\ -]+no[._\ -]+Gekokujou)\.S04E(?=(?:01|02|03|04|05|06|07|08|09|10|11|12)(?:[._\ -]|$))(?=.*ADWeb) => \1.{[tmdbid=91768;type=tv]} S02E
+
 Ascendance.of.a.Bookworm.Adopted.Daughter.of.an.Archduke.S01E(?=.*friDay)(?=.*CHDWEB) => Ascendance.of.a.Bookworm.Adopted.Daughter.of.an.Archduke.S02E
 
 Ace.of.the.Diamond.Act.Ⅱ.S02 => Diamond.no.Ace.S04
