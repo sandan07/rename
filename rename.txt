@@ -1,3 +1,4 @@
+Tomei.na.Yoru.ni.Kakeru.Kimi.to.Me.ni.Mienai.Koi.o.Shita => \1.{[tmdbid=309974;type=tv]}
 \[斗破苍穹\ 第五季\].Fights.Break.Sphere.2024 => \1.{[tmdbid=79481;type=tv]}
 (斗罗大陆Ⅱ绝世唐门[._\ -]+Dou[._\ -]+Luo[._\ -]+Da[._\ -]+Lu)\.S02E(?=.*OurTV) => \1.{[tmdbid=228429;type=tv]} S01E
 (斗破苍穹年番[._\ -]+Fights[._\ -]+Break[._\ -]+Sphere)\.S01E(?=.*OurTV) => \1.{[tmdbid=79481;type=tv]} S05E
