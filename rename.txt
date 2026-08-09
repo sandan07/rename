@@ -1,4 +1,13 @@
+# 死神 S04【CHDWEB】
+BLEACH.Thousand-Year.Blood.War.S04E(?=.*CHDWEB) => \1.{[tmdbid=30984;type=tv]} S02E && S02E <> CHDWEB >> EP+40
 
+# 死神 S17【NTB】
+Bleach.S17E(?=.*NTB) => \1.{[tmdbid=30984;type=tv]} S02E
+
+# 死神 S04【ADWEB】
+Bleach.Thousand.Year.Blood.War.S04E(?=.*LINETV)(?=.*ADWEB) => \1.{[tmdbid=30984;type=tv]} S02E && S02E <> ADWEB >> EP+40
+
+BLEACH.Sennen.Kessen-hen.Kashin-tan.S01E(?=.*ADWeb) => BLEACH.S02E
 魔法少女奈叶.Magical.Girl.Lyrical.S01(?=.*HDSWEB) => 魔法少女奈叶 EXCEEDS Gun Blaze Vengeance.{[tmdbid=309974;type=tv]}.S01
 Tomei.na.Yoru.ni.Kakeru.Kimi.to.Me.ni.Mienai.Koi.o.Shita => \1.{[tmdbid=309974;type=tv]}
 \[斗破苍穹\ 第五季\].Fights.Break.Sphere.2024 => \1.{[tmdbid=79481;type=tv]}
