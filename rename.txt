@@ -1,3 +1,18 @@
+# 葬送的芙莉莲 S02【KITSUNE】
+(?i)(Frieren[._\ -]+Beyond[._\ -]+Journeys[._\ -]+End)[._\ -]+S02E(?=.*CR)(?=.*KITSUNE) => \1.{[tmdbid=209867;type=tv]} S01E && S01E <> (?i)KITSUNE >> EP+28
+
+# 葬送的芙莉莲 S02【CHDWEB】
+(?i)(Frieren[._\ -]+Beyond[._\ -]+Journeys[._\ -]+End)[._\ -]+S02E(?=.*DSNP)(?=.*CHDWEB) => \1.{[tmdbid=209867;type=tv]} S01E && S01E <> (?i)CHDWEB >> EP+28
+
+# 葬送的芙莉莲 S02【HHWEB】
+(?i)(Frieren[._\ -]+Beyond[._\ -]+Journeys[._\ -]+End)[._\ -]+S02E(?=.*DSNP)(?=.*HHWEB) => \1.{[tmdbid=209867;type=tv]} S01E && S01E <> (?i)HHWEB >> EP+28
+
+# 葬送的芙莉莲 S02【UBWEB】
+(?i)(\[葬送的芙莉莲[._\ -]+第二季\][._\ -]+Sousou[._\ -]+no[._\ -]+Frieren[._\ -]+2026)[._\ -]+S02E(?=.*CR)(?=.*UBWEB) => \1.{[tmdbid=209867;type=tv]} S01E && S01E <> (?i)UBWEB >> EP+28
+
+# 葬送的芙莉莲 S02【UBWEB】
+(?i)(\[葬送的芙莉莲[._\ -]+第二季\][._\ -]+Sousou[._\ -]+no[._\ -]+Frieren[._\ -]+2026)[._\ -]+S02E(?=.*DSNP)(?=.*UBWEB) => \1.{[tmdbid=209867;type=tv]} S01E && S01E <> (?i)UBWEB >> EP+28
+
 # 我的幸福婚姻 S02【QHSTUDIO】
 (?i)(\[我的幸福婚姻[._\ -]+第二季\][._\ -]+My[._\ -]+Happy[._\ -]+Marriage[._\ -]+2025)[._\ -]+S02E(?=.*QHSTUDIO) => \1.{[tmdbid=196944;type=tv]} S01E && S01E <> (?i)QHSTUDIO >> EP+12
 
