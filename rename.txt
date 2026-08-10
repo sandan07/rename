@@ -26,7 +26,7 @@
 (Mystic[._\ -]+Nine)[._\ -]+S02E(?=.*HAMI)(?=.*CHDWEB) => \1.{[tmdbid=271016;type=tv]} S01E
 
 # 九门 S02【QHSTUDIO】
-(\[九门\][._\ -]+Mystic[._\ -]+Nine[._\ -]+2026)[._\ -]+S02E(?=.*QHSTUDIO) => \1.{[tmdbid=271016;type=tv]} S01E
+Mystic.Nine.2026[._\ -]+S02E(?=.*QHSTUDIO) => \1.{[tmdbid=271016;type=tv]} S01E
 
 # 死神 S04【CHDWEB】
 BLEACH.Thousand-Year.Blood.War.S04E(?=.*CHDWEB) => \1.{[tmdbid=30984;type=tv]} S02E && S02E <> CHDWEB >> EP+40
