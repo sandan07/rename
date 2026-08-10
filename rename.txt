@@ -1,3 +1,9 @@
+# 葬送的芙莉莲 S02【VARYG】
+(?i)(Frieren[._\ -]+Beyond[._\ -]+Journeys[._\ -]+End)[._\ -]+S02E(?=.*CR)(?=.*VARYG) => \1.{[tmdbid=209867;type=tv]} S01E && S01E <> (?i)VARYG >> EP+28
+
+# 葬送的芙莉莲 S02【HDSWEB】
+(?i)(葬送的芙莉莲[._\ -]+Frieren[._\ -]+Beyond[._\ -]+Journey's[._\ -]+End)[._\ -]+S02E(?=.*IQ)(?=.*HDSWEB) => \1.{[tmdbid=209867;type=tv]} S01E && S01E <> (?i)HDSWEB >> EP+28
+
 # 超超超超超喜欢你的100个女朋友 S03【ADWEB】
 (?i)(Kimi[._\ -]+no[._\ -]+Koto[._\ -]+ga[._\ -]+Daidaidaidaidaisuki[._\ -]+na[._\ -]+100[._\ -]+nin[._\ -]+no[._\ -]+Kanojo)[._\ -]+S03E(?=.*LINETV)(?=.*ADWEB) => \1.{[tmdbid=223564;type=tv]} S01E && S01E <> (?i)ADWEB >> EP+24
 
