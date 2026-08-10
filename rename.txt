@@ -1,3 +1,12 @@
+# 租借女友 S05【CHDWEB】
+(Rent\-a\-Girlfriend)[._\ -]+S05E(?=.*CR)(?=.*CHDWEB) => \1.{[tmdbid=96316;type=tv]} S01E && S01E <> CHDWEB >> EP+48
+
+# 租借女友 S02【UBWEB】
+(\[租借女友[._\ -]+第二季\][._\ -]+Kanojo[._\ -]+Okarishimasu[._\ -]+2022)[._\ -]+S02E(?=.*IQ)(?=.*UBWEB) => \1.{[tmdbid=96316;type=tv]} S01E && S01E <> UBWEB >> EP+12
+
+# 租借女友 S05【UBWEB】
+(\[租借女友[._\ -]+第五季\][._\ -]+Kanojo[._\ -]+Okarishimasu[._\ -]+2026)[._\ -]+S05E(?=.*CR)(?=.*UBWEB) => \1.{[tmdbid=96316;type=tv]} S01E && S01E <> UBWEB >> EP+48
+
 # 咒术回战 S03【UBWEB】
 (\[咒术回战[._\ -]+死灭回游[._\ -]+前篇\][._\ -]+Jujutsu[._\ -]+Kaisen[._\ -]+Shimetsu[._\ -]+Kaiyuu[._\ -]+2026)[._\ -]+S03E(?=.*NF)(?=.*UBWEB) => \1.{[tmdbid=95479;type=tv]} S01E && S01E <> UBWEB >> EP+29
 
