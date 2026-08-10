@@ -1,3 +1,6 @@
+# 乱马½ S02【UBWEB】
+(?i)(\[乱马½[._\ -]+第二季\][._\ -]+Ranma[._\ -]+1\-2[._\ -]+2025)[._\ -]+S02E(?=.*NF)(?=.*UBWEB) => \1.{[tmdbid=259140;type=tv]} S01E && S01E <> (?i)UBWEB >> EP+12
+
 # 公主殿下，“拷问”的时间到了 S02【MWEB】
 (?i)(Tis[._\ -]+Time[._\ -]+for[._\ -]+Torture[._\ -]+Princess)[._\ -]+S02E(?=.*LINETV)(?=.*MWEB) => \1.{[tmdbid=229443;type=tv]} S01E && S01E <> (?i)MWEB >> EP+12
 
