@@ -1,3 +1,6 @@
+# 公主殿下，“拷问”的时间到了 S02【MWEB】
+(?i)(Tis[._\ -]+Time[._\ -]+for[._\ -]+Torture[._\ -]+Princess)[._\ -]+S02E(?=.*LINETV)(?=.*MWEB) => \1.{[tmdbid=229443;type=tv]} S01E && S01E <> (?i)MWEB >> EP+12
+
 # 无名记忆 S02【QHSTUDIO】
 (?i)(\[无名记忆[._\ -]+第二季\][._\ -]+Unnamed[._\ -]+Memory[._\ -]+2025)[._\ -]+S02E(?=.*QHSTUDIO) => \1.{[tmdbid=216272;type=tv]} S01E && S01E <> (?i)QHSTUDIO >> EP+12
 
