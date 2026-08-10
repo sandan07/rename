@@ -1,3 +1,15 @@
+# 爱书的下克上：为了成为图书管理员不择手段！ S04【ADWEB】
+(Ascendance[._\ -]+of[._\ -]+a[._\ -]+Bookworm)[._\ -]+S04E(?=.*LINETV)(?=.*ADWEB) => \1.{[tmdbid=91768;type=tv]} S02E
+
+# 爱书的下克上：为了成为图书管理员不择手段！ S04【ADWEB】
+(Honzuki[._\ -]+no[._\ -]+Gekokujou)[._\ -]+S04E(?=.*CR)(?=.*ADWEB) => \1.{[tmdbid=91768;type=tv]} S02E
+
+# 爱书的下克上：为了成为图书管理员不择手段！ S04【ADWEB】
+(Honzuki[._\ -]+no[._\ -]+Gekokujou[._\ -]+Ryoushu[._\ -]+no[._\ -]+Youjo)[._\ -]+S04E(?=.*ADWEB) => \1.{[tmdbid=91768;type=tv]} S02E
+
+# 爱书的下克上：为了成为图书管理员不择手段！ S04【UBWEB】
+(\[小书痴的下克上[._\ -]+领主的养女\][._\ -]+Honzuki[._\ -]+no[._\ -]+Gekokujou[._\ -]+Shisho[._\ -]+ni[._\ -]+Naru[._\ -]+Tame[._\ -]+ni[._\ -]+wa[._\ -]+Shudan[._\ -]+o[._\ -]+Erande[._\ -]+Iraremasen[._\ -]+Ryoushu[._\ -]+no[._\ -]+Youjo[._\ -]+2026)[._\ -]+S04E(?=.*CR)(?=.*UBWEB) => \1.{[tmdbid=91768;type=tv]} S02E
+
 # 九门 S02【QHSTUDIO】
 (\[九门\][._\ -]+Mystic[._\ -]+Nine[._\ -]+2026)[._\ -]+S02E(?=.*QHSTUDIO) => \1.{[tmdbid=271016;type=tv]} S01E
 
