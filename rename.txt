@@ -1,3 +1,6 @@
+# 咒术回战 S03【UBWEB】
+(\[咒术回战[._\ -]+死灭回游[._\ -]+前篇\][._\ -]+Jujutsu[._\ -]+Kaisen[._\ -]+Shimetsu[._\ -]+Kaiyuu[._\ -]+2026)[._\ -]+S03E(?=.*NF)(?=.*UBWEB) => \1.{[tmdbid=95479;type=tv]} S01E && S01E <> UBWEB >> EP+29
+
 # 爱书的下克上：为了成为图书管理员不择手段！ S04【ADWEB】
 (Ascendance[._\ -]+of[._\ -]+a[._\ -]+Bookworm)[._\ -]+S04E(?=.*LINETV)(?=.*ADWEB) => \1.{[tmdbid=91768;type=tv]} S02E
 
