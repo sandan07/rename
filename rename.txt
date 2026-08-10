@@ -1,3 +1,21 @@
+# 正相反的你与我 S02【ADWEB】
+(?i)(Seihantai[._\ -]+na[._\ -]+Kimi[._\ -]+to[._\ -]+Boku)[._\ -]+S02E(?=.*ADWEB) => \1.{[tmdbid=278043;type=tv]} S01E
+
+# 正相反的你与我 S02【ADWEB】
+(?i)(Seihantai[._\ -]+na[._\ -]+Kimi[._\ -]+to[._\ -]+Boku)[._\ -]+S02E(?=.*LINETV)(?=.*ADWEB) => \1.{[tmdbid=278043;type=tv]} S01E && S01E <> (?i)ADWEB >> EP+12
+
+# 正相反的你与我 S02【CHDWEB】
+(?i)(You[._\ -]+and[._\ -]+I[._\ -]+Are[._\ -]+Polar[._\ -]+Opposites)[._\ -]+S02E(?=.*NF)(?=.*CHDWEB) => \1.{[tmdbid=278043;type=tv]} S01E
+
+# 正相反的你与我 S02【CHDWEB】
+(?i)(You[._\ -]+and[._\ -]+I[._\ -]+are[._\ -]+Polar[._\ -]+Opposites)[._\ -]+S02E(?=.*FRIDAY)(?=.*CHDWEB) => \1.{[tmdbid=278043;type=tv]} S01E
+
+# 正相反的你与我 S02【UBWEB】
+(?i)(\[相反的你和我[._\ -]+第二季\][._\ -]+Seihantai[._\ -]+na[._\ -]+Kimi[._\ -]+to[._\ -]+Boku[._\ -]+2026)[._\ -]+S02E(?=.*CR)(?=.*UBWEB) => \1.{[tmdbid=278043;type=tv]} S01E && S01E <> (?i)UBWEB >> EP+12
+
+# 正相反的你与我 S02【UBWEB】
+(?i)(\[相反的你和我[._\ -]+第二季\][._\ -]+Seihantai[._\ -]+na[._\ -]+Kimi[._\ -]+to[._\ -]+Boku[._\ -]+2026)[._\ -]+S02E(?=.*LINETV)(?=.*UBWEB) => \1.{[tmdbid=278043;type=tv]} S01E && S01E <> (?i)UBWEB >> EP+12
+
 # 正义使者 -我的英雄学院之非法英雄- S02【UBWEB】
 (?i)(\[正义使者[._\ -]+\-我的英雄学院之非法英雄\-[._\ -]+第二季\][._\ -]+My[._\ -]+Hero[._\ -]+Academia[._\ -]+Vigilantes[._\ -]+2026)[._\ -]+S02E(?=.*CR)(?=.*UBWEB) => \1.{[tmdbid=280110;type=tv]} S01E && S01E <> (?i)UBWEB >> EP+13
 
