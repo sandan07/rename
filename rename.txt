@@ -1,3 +1,27 @@
+# Re：从零开始的异世界生活 S04【UBWEB】
+(\[Re：从零开始的异世界生活[._\ -]+第四季\][._\ -]+Re[._\ -]+Zero[._\ -]+Kara[._\ -]+Hajimeru[._\ -]+Isekai[._\ -]+Seikatsu[._\ -]+2026)[._\ -]+S04E(?=.*CR)(?=.*UBWEB) => \1.{[tmdbid=65942;type=tv]} S01E && S01E <> UBWEB >> EP+66
+
+# Re：从零开始的异世界生活 S04【UBWEB】
+(\[Re：从零开始的异世界生活[._\ -]+第四季\][._\ -]+Re[._\ -]+Zero[._\ -]+Kara[._\ -]+Hajimeru[._\ -]+Isekai[._\ -]+Seikatsu[._\ -]+2026)[._\ -]+S04E(?=.*IQ)(?=.*UBWEB) => \1.{[tmdbid=65942;type=tv]} S01E && S01E <> UBWEB >> EP+66
+
+# 百炼成神 S03【UBWEB】
+(百炼成神)[._\ -]+S03E(?=.*UBWEB) => \1.{[tmdbid=213791;type=tv]} S01E && S01E <> UBWEB >> EP+104
+
+# 仙武传 S04【QHSTUDIO】
+(仙武传)[._\ -]+S04E(?=.*QHSTUDIO) => \1.{[tmdbid=222608;type=tv]} S01E && S01E <> QHSTUDIO >> EP+130
+
+# 乌龙院笑传 S03【ADWEB】
+(乌龙院笑传)[._\ -]+S03E(?=.*ADWEB) => \1.{[tmdbid=242890;type=tv]} S01E
+
+# 死神 S04【CHDWEB】
+(Bleach[._\ -]+Thousand[._\ -]+Year[._\ -]+Blood[._\ -]+War)[._\ -]+S04E(?=.*Disney\+)(?=.*CHDWEB) => \1.{[tmdbid=30984;type=tv]} S02E && S02E <> CHDWEB >> EP+40
+
+# 死神 S04【ADWEB】
+(Bleach[._\ -]+Thousand[._\ -]+Year[._\ -]+Blood[._\ -]+War)[._\ -]+S04E(?=.*LINETV)(?=.*ADWEB) => \1.{[tmdbid=30984;type=tv]} S02E && S02E <> ADWEB >> EP+40
+
+# 死神 S17【NTB】
+(Bleach[._\ -]+Thousand[._\ -]+Year[._\ -]+Blood[._\ -]+War)[._\ -]+S17E(?=.*DSNP)(?=.*NTB) => \1.{[tmdbid=30984;type=tv]} S02E
+
 # 九门 S02【CHDWEB】
 (Mystic[._\ -]+Nine)[._\ -]+S02E(?=.*HAMI)(?=.*CHDWEB) => \1.{[tmdbid=271016;type=tv]} S01E
 
