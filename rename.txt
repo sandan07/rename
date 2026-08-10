@@ -1,3 +1,6 @@
+# 转生为第七王子，随心所欲的魔法学习之路 S02【UBWEB】
+(?i)(\[转生为第七王子[._\ -]+第二季\][._\ -]+Tensei[._\ -]+Shitara[._\ -]+Dai[._\ -]+Nana[._\ -]+Ouji[._\ -]+Datta[._\ -]+no[._\ -]+de[._\ -]+Kimamani[._\ -]+Majutsu[._\ -]+o[._\ -]+Kiwamemasu[._\ -]+2025)[._\ -]+S02E(?=.*IQ)(?=.*UBWEB) => \1.{[tmdbid=213830;type=tv]} S01E && S01E <> (?i)UBWEB >> EP+12
+
 # 葬送的芙莉莲 S02【VARYG】
 (?i)(Frieren[._\ -]+Beyond[._\ -]+Journeys[._\ -]+End)[._\ -]+S02E(?=.*CR)(?=.*VARYG) => \1.{[tmdbid=209867;type=tv]} S01E && S01E <> (?i)VARYG >> EP+28
 
