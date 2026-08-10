@@ -23,7 +23,7 @@
 (\[小书痴的下克上[._\ -]+领主的养女\][._\ -]+Honzuki[._\ -]+no[._\ -]+Gekokujou[._\ -]+Shisho[._\ -]+ni[._\ -]+Naru[._\ -]+Tame[._\ -]+ni[._\ -]+wa[._\ -]+Shudan[._\ -]+o[._\ -]+Erande[._\ -]+Iraremasen[._\ -]+Ryoushu[._\ -]+no[._\ -]+Youjo[._\ -]+2026)[._\ -]+S04E(?=.*CR)(?=.*UBWEB) => \1.{[tmdbid=91768;type=tv]} S02E
 
 # 九门 S02【QHSTUDIO】
-(\[九门\][._\ -]+Mystic[._\ -]+Nine[._\ -]+2026)[._\ -]+S02E(?=.*QHSTUDIO) => \1.{[tmdbid=271016;type=tv]} S01E
+(?i)(\[九门\][._\ -]+Mystic[._\ -]+Nine[._\ -]+2026)[._\ -]+S02E(?=.*QHSTUDIO) => \1.{[tmdbid=271016;type=tv]} S01E
 
 # Re：从零开始的异世界生活 S04【UBWEB】
 (\[Re：从零开始的异世界生活[._\ -]+第四季\][._\ -]+Re[._\ -]+Zero[._\ -]+Kara[._\ -]+Hajimeru[._\ -]+Isekai[._\ -]+Seikatsu[._\ -]+2026)[._\ -]+S04E(?=.*CR)(?=.*UBWEB) => \1.{[tmdbid=65942;type=tv]} S01E && S01E <> UBWEB >> EP+66
