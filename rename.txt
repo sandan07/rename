@@ -1,3 +1,15 @@
+# 超超超超超喜欢你的100个女朋友 S03【ADWEB】
+(?i)(Kimi[._\ -]+no[._\ -]+Koto[._\ -]+ga[._\ -]+Daidaidaidaidaisuki[._\ -]+na[._\ -]+100[._\ -]+nin[._\ -]+no[._\ -]+Kanojo)[._\ -]+S03E(?=.*LINETV)(?=.*ADWEB) => \1.{[tmdbid=223564;type=tv]} S01E && S01E <> (?i)ADWEB >> EP+24
+
+# 超超超超超喜欢你的100个女朋友 S03【CHDWEB】
+(?i)(The[._\ -]+100[._\ -]+Girlfriends[._\ -]+Who[._\ -]+Really[._\ -]+Really[._\ -]+Really[._\ -]+Really[._\ -]+REALLY[._\ -]+Love[._\ -]+You)[._\ -]+S03E(?=.*CR)(?=.*CHDWEB) => \1.{[tmdbid=223564;type=tv]} S01E
+
+# 超超超超超喜欢你的100个女朋友 S03【CHDWEB】
+(?i)(The[._\ -]+100[._\ -]+Girlfriends[._\ -]+Who[._\ -]+Really[._\ -]+Really[._\ -]+Really[._\ -]+Really[._\ -]+REALLY[._\ -]+Love[._\ -]+You)[._\ -]+S03E(?=.*FRIDAY)(?=.*CHDWEB) => \1.{[tmdbid=223564;type=tv]} S01E && S01E <> (?i)CHDWEB >> EP+24
+
+# 超超超超超喜欢你的100个女朋友 S03【UBWEB】
+(?i)(\[超超超超超喜欢你的100个女朋友[._\ -]+第三季\][._\ -]+Kimi[._\ -]+no[._\ -]+Koto[._\ -]+ga[._\ -]+Dai[._\ -]+Dai[._\ -]+Dai[._\ -]+Dai[._\ -]+Daisuki[._\ -]+na[._\ -]+100\-nin[._\ -]+no[._\ -]+Kanojo[._\ -]+2026)[._\ -]+S03E(?=.*CR)(?=.*UBWEB) => \1.{[tmdbid=223564;type=tv]} S01E && S01E <> (?i)UBWEB >> EP+24
+
 # 葬送的芙莉莲 S02【KITSUNE】
 (?i)(Frieren[._\ -]+Beyond[._\ -]+Journeys[._\ -]+End)[._\ -]+S02E(?=.*CR)(?=.*KITSUNE) => \1.{[tmdbid=209867;type=tv]} S01E && S01E <> (?i)KITSUNE >> EP+28
 
