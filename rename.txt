@@ -1,3 +1,6 @@
+# 九门 S02【CHDWEB】
+(?i)(Mystic[._\ -]+Nine)[._\ -]+S02E(?=.*HAMI)(?=.*CHDWEB) => \1.{[tmdbid=271016;type=tv]} S01E
+
 # 正相反的你与我 S02【ADWEB】
 (?i)(Seihantai[._\ -]+na[._\ -]+Kimi[._\ -]+to[._\ -]+Boku)[._\ -]+S02E(?=.*ADWEB) => \1.{[tmdbid=278043;type=tv]} S01E
 
