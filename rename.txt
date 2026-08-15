@@ -1,3 +1,12 @@
+# Re：从零开始的异世界生活 S04【CHDWEB】
+(?i)(ReZERO[._\ -]+\-Starting[._\ -]+Life[._\ -]+in[._\ -]+Another[._\ -]+World)[._\ -]+S04E(?=.*CR)(?=.*CHDWEB) => \1.{[tmdbid=65942;type=tv]} S01E && S01E <> (?i)CHDWEB >> EP+66
+
+# Re：从零开始的异世界生活 S04【UBWEB】
+(?i)(\[Re：从零开始的异世界生活[._\ -]+第四季\][._\ -]+Re[._\ -]+Zero[._\ -]+Kara[._\ -]+Hajimeru[._\ -]+Isekai[._\ -]+Seikatsu[._\ -]+2026)[._\ -]+S04E(?=.*CR)(?=.*UBWEB) => \1.{[tmdbid=65942;type=tv]} S01E && S01E <> (?i)UBWEB >> EP+66
+
+# Re：从零开始的异世界生活 S04【UBWEB】
+(?i)(\[Re：从零开始的异世界生活[._\ -]+第四季\][._\ -]+Re[._\ -]+Zero[._\ -]+Kara[._\ -]+Hajimeru[._\ -]+Isekai[._\ -]+Seikatsu[._\ -]+2026)[._\ -]+S04E(?=.*IQ)(?=.*UBWEB) => \1.{[tmdbid=65942;type=tv]} S01E && S01E <> (?i)UBWEB >> EP+66
+
 # 九门 S02【CHDWEB】
 (?i)(Mystic[._\ -]+Nine)[._\ -]+S02E(?=.*HAMI)(?=.*CHDWEB) => \1.{[tmdbid=271016;type=tv]} S01E
 
