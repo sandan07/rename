@@ -1,3 +1,9 @@
+# 关于我转生变成史莱姆这档事 S04【ADWEB】
+(?i)(That[._\ -]+Time[._\ -]+I[._\ -]+Got[._\ -]+Reincarnated[._\ -]+as[._\ -]+a[._\ -]+Slime)[._\ -]+S04E(?=(?:8[7-9]|9\d|[1-9]\d{2})[._\ -])(?=.*Viu)(?=.*ADWEB) => \1.{[tmdbid=82684;type=tv]} S04E && S04E <> (?i)ADWEB >> EP-73
+
+# 关于我转生变成史莱姆这档事 S04【ADWEB】
+(?i)(Tensei[._\ -]+Shitara[._\ -]+Slime[._\ -]+Datta[._\ -]+Ken)[._\ -]+S04E73(?=.*Baha)(?=.*ADWEB) => \1.{[tmdbid=82684;type=tv]} S04E01
+
 # Re：从零开始的异世界生活 S04【CHDWEB】
 (?i)(ReZERO[._\ -]+\-Starting[._\ -]+Life[._\ -]+in[._\ -]+Another[._\ -]+World)[._\ -]+S04E(?=.*CR)(?=.*CHDWEB) => \1.{[tmdbid=65942;type=tv]} S01E && S01E <> (?i)CHDWEB >> EP+66
 
