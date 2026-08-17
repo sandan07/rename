@@ -28,7 +28,7 @@
 (?i)(\[死神[._\ -]+千年血战篇[._\ -]+\-祸进谭\-\][._\ -]+Bleach[._\ -]+Sennen[._\ -]+Kessen\-hen[._\ -]+2026)[._\ -]+S04E(?=.*LINETV)(?=.*UBWEB) => \1.{[tmdbid=30984;type=tv]} S02E && S02E <> (?i)UBWEB >> EP+40
 
 # 关于我转生变成史莱姆这档事 S04【ADWEB】
-(?i)(That[._\ -]+Time[._\ -]+I[._\ -]+Got[._\ -]+Reincarnated[._\ -]+as[._\ -]+a[._\ -]+Slime)[._\ -]+S04E(?=(?:8[7-9]|9\d|[1-9]\d{2})[._\ -])(?=.*Viu)(?=.*ADWEB) => \1.{[tmdbid=82684;type=tv]} S04E && S04E <> (?i)ADWEB >> EP-73
+(?i)(That[._\ -]+Time[._\ -]+I[._\ -]+Got[._\ -]+Reincarnated[._\ -]+as[._\ -]+a[._\ -]+Slime)[._\ -]+S04E(?=.*Viu)(?=.*ADWEB) => \1.{[tmdbid=82684;type=tv]} S04E && S04E <> (?i)ADWEB >> EP-73
 
 # 关于我转生变成史莱姆这档事 S04【ADWEB】
 (?i)(Tensei[._\ -]+Shitara[._\ -]+Slime[._\ -]+Datta[._\ -]+Ken)[._\ -]+S04E73(?=.*Baha)(?=.*ADWEB) => \1.{[tmdbid=82684;type=tv]} S04E01
