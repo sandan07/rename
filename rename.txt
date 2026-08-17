@@ -1,3 +1,18 @@
+# 死神 S04【CHDWEB】
+(?i)(BLEACH[._\ -]+Thousand\-Year[._\ -]+Blood[._\ -]+War)[._\ -]+S04E(?=.*DSNP)(?=.*CHDWEB) => \1.{[tmdbid=30984;type=tv]} S02E && S02E <> (?i)CHDWEB >> EP+40
+
+# 死神 S04【VARYG】
+(?i)(BLEACH[._\ -]+Thousand[._\ -]+Year[._\ -]+Blood[._\ -]+War)[._\ -]+S04E(?=.*CR)(?=.*VARYG) => \1.{[tmdbid=30984;type=tv]} S02E
+
+# 死神 S17【NTB】
+(?i)(Bleach)[._\ -]+S17E(?=.*DSNP)(?=.*NTB) => \1.{[tmdbid=30984;type=tv]} S02E
+
+# 死神 S04【ADWEB】
+(?i)(Bleach[._\ -]+Thousand[._\ -]+Year[._\ -]+Blood[._\ -]+War)[._\ -]+S04E(?=.*LINETV)(?=.*ADWEB) => \1.{[tmdbid=30984;type=tv]} S02E && S02E <> (?i)ADWEB >> EP+40
+
+# 死神 S04【UBWEB】
+(?i)(\[死神[._\ -]+千年血战篇[._\ -]+\-祸进谭\-\][._\ -]+Bleach[._\ -]+Sennen[._\ -]+Kessen\-hen[._\ -]+2026)[._\ -]+S04E(?=.*LINETV)(?=.*UBWEB) => \1.{[tmdbid=30984;type=tv]} S02E && S02E <> (?i)UBWEB >> EP+40
+
 # 关于我转生变成史莱姆这档事 S04【ADWEB】
 (?i)(That[._\ -]+Time[._\ -]+I[._\ -]+Got[._\ -]+Reincarnated[._\ -]+as[._\ -]+a[._\ -]+Slime)[._\ -]+S04E(?=(?:8[7-9]|9\d|[1-9]\d{2})[._\ -])(?=.*Viu)(?=.*ADWEB) => \1.{[tmdbid=82684;type=tv]} S04E && S04E <> (?i)ADWEB >> EP-73
 
