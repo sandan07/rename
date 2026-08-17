@@ -150,8 +150,8 @@
 # 九门 S02【QHSTUDIO】
 Mystic.Nine.2026[._\ -]+S02E(?=.*QHSTUDIO) => \1.{[tmdbid=271016;type=tv]} S01E
 
-魔法少女奈叶.Magical.Girl.Lyrical.S01(?=.*HDSWEB) => 魔法少女奈叶 EXCEEDS Gun Blaze Vengeance.{[tmdbid=309974;type=tv]}.S01
-Tomei.na.Yoru.ni.Kakeru.Kimi.to.Me.ni.Mienai.Koi.o.Shita => \1.{[tmdbid=309974;type=tv]}
+魔法少女奈叶.Magical.Girl.Lyrical.S01(?=.*HDSWEB) => 魔法少女奈叶 EXCEEDS Gun Blaze Vengeance.{[tmdbid=287075;type=tv]}.S01
+Tomei.na.Yoru.ni.Kakeru.Kimi.to.Me.ni.Mienai.Koi.o.Shita => \1.{[tmdbid=287075;type=tv]}
 \[斗破苍穹\ 第五季\].Fights.Break.Sphere.2024 => \1.{[tmdbid=79481;type=tv]}
 (斗罗大陆Ⅱ绝世唐门[._\ -]+Dou[._\ -]+Luo[._\ -]+Da[._\ -]+Lu)\.S02E(?=.*OurTV) => \1.{[tmdbid=228429;type=tv]} S01E
 (斗破苍穹年番[._\ -]+Fights[._\ -]+Break[._\ -]+Sphere)\.S01E(?=.*OurTV) => \1.{[tmdbid=79481;type=tv]} S05E
