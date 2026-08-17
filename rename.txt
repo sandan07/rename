@@ -1,3 +1,5 @@
+\[斗罗大陆2\：绝世唐门\].Soul.Land.II.The.Peerless.Tang.Clan.2023.S02E(?=.*UBWEB) => Soul.Land.{[tmdbid=228429;type=tv]} S01E
+
 # 爱书的下克上：为了成为图书管理员不择手段！ S04【ADWEB】
 (?i)(Ascendance[._\ -]+of[._\ -]+a[._\ -]+Bookworm)[._\ -]+S04E(?=.*LINETV)(?=.*ADWEB) => \1.{[tmdbid=91768;type=tv]} S02E
 
