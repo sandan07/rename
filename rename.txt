@@ -1,3 +1,6 @@
+# 陀枪师姐2021 S05【UBWEB】
+(?i)(\[陀枪师姐2021\][._\ -]+Armed[._\ -]+Reaction[._\ -]+2021[._\ -]+2021)[._\ -]+S05E(?=.*UBWEB) => \1.{[tmdbid=117516;type=tv]} S01E
+
 \[斗罗大陆2\：绝世唐门\].Soul.Land.II.The.Peerless.Tang.Clan.2023.S02E(?=.*UBWEB) => Soul.Land.{[tmdbid=228429;type=tv]} S01E
 
 # 爱书的下克上：为了成为图书管理员不择手段！ S04【ADWEB】
