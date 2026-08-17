@@ -112,9 +112,6 @@
 # 咒术回战 S03【UBWEB】
 (\[咒术回战[._\ -]+死灭回游[._\ -]+前篇\][._\ -]+Jujutsu[._\ -]+Kaisen[._\ -]+Shimetsu[._\ -]+Kaiyuu[._\ -]+2026)[._\ -]+S03E(?=.*NF)(?=.*UBWEB) => \1.{[tmdbid=95479;type=tv]} S01E && S01E <> UBWEB >> EP+29
 
-# 爱书的下克上：为了成为图书管理员不择手段！ S04【UBWEB】
-(\[小书痴的下克上[._\ -]+领主的养女\][._\ -]+Honzuki[._\ -]+no[._\ -]+Gekokujou[._\ -]+Shisho[._\ -]+ni[._\ -]+Naru[._\ -]+Tame[._\ -]+ni[._\ -]+wa[._\ -]+Shudan[._\ -]+o[._\ -]+Erande[._\ -]+Iraremasen[._\ -]+Ryoushu[._\ -]+no[._\ -]+Youjo[._\ -]+2026)[._\ -]+S04E(?=.*CR)(?=.*UBWEB) => \1.{[tmdbid=91768;type=tv]} S02E
-
 # 九门 S02【QHSTUDIO】
 (?i)(\[九门\][._\ -]+Mystic[._\ -]+Nine[._\ -]+2026)[._\ -]+S02E(?=.*QHSTUDIO) => \1.{[tmdbid=271016;type=tv]} S01E
 
