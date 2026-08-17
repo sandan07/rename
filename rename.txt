@@ -1,3 +1,12 @@
+# 爱书的下克上：为了成为图书管理员不择手段！ S04【ADWEB】
+(?i)(Ascendance[._\ -]+of[._\ -]+a[._\ -]+Bookworm)[._\ -]+S04E(?=.*LINETV)(?=.*ADWEB) => \1.{[tmdbid=91768;type=tv]} S02E
+
+# 爱书的下克上：为了成为图书管理员不择手段！ S04【ADWEB】
+(?i)(Honzuki[._\ -]+no[._\ -]+Gekokujou)[._\ -]+S04E(?=.*CR)(?=.*ADWEB) => \1.{[tmdbid=91768;type=tv]} S02E
+
+# 爱书的下克上：为了成为图书管理员不择手段！ S04【UBWEB】
+(?i)(\[小书痴的下克上[._\ -]+领主的养女\][._\ -]+Honzuki[._\ -]+no[._\ -]+Gekokujou[._\ -]+Shisho[._\ -]+ni[._\ -]+Naru[._\ -]+Tame[._\ -]+ni[._\ -]+wa[._\ -]+Shudan[._\ -]+o[._\ -]+Erande[._\ -]+Iraremasen[._\ -]+Ryoushu[._\ -]+no[._\ -]+Youjo[._\ -]+2026)[._\ -]+S04E(?=.*CR)(?=.*UBWEB) => \1.{[tmdbid=91768;type=tv]} S02E
+
 # 死神 S04【CHDWEB】
 (?i)(BLEACH[._\ -]+Thousand\-Year[._\ -]+Blood[._\ -]+War)[._\ -]+S04E(?=.*DSNP)(?=.*CHDWEB) => \1.{[tmdbid=30984;type=tv]} S02E && S02E <> (?i)CHDWEB >> EP+40
 
