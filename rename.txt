@@ -1,4 +1,6 @@
-(?i)(VIVANT)[._\ -]+S01E(?=.*ADWEB) => VIVANT S02E && S02E <> (?i)ADWEB >> EP-10
+# VIVANT 第二季集数偏移（S01E11 -> S02E01）
+(?i)VIVANT\.S01E => VIVANT.S02E && (?i)VIVANT\.S02E <> \.1080p >> EP-10
+
 # 我心里危险的东西 S02【7³ACG】
 (?i)(我心里危险的东西)[._\ -]+S02E(?=.*7³ACG) => \1.{[tmdbid=207250;type=tv]} S01E && S01E <> (?i)7³ACG >> EP+12
 
