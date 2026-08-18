@@ -1,3 +1,5 @@
+# VIVANT 第二季集数偏移（S02E11 -> S02E01，限定CHDWEB制作组）
+(?i)VIVANT\.S02E <> \.1080p(?=.*CHDWEB) >> EP-10
 # VIVANT 第二季集数偏移（S01E11 -> S02E01）
 (?i)VIVANT\.S01E => VIVANT.S02E && (?i)VIVANT\.S02E <> \.1080p >> EP-10
 
