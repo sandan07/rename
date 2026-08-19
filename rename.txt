@@ -1,3 +1,6 @@
+# The House That Dragons Built S03【EDITH】
+(?i)(The[._\ -]+House[._\ -]+That[._\ -]+Dragons[._\ -]+Built)[._\ -]+S03E(?=.*EDITH) => \1.{[tmdbid=325709;type=tv]} S02E
+
 # VIVANT 第二季集数偏移（S02E11 -> S02E01，限定CHDWEB制作组）
 (?i)VIVANT\.S02E <> \.1080p(?=.*CHDWEB) >> EP-10
 # VIVANT 第二季集数偏移（S01E11 -> S02E01）
