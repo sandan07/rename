@@ -1,3 +1,6 @@
+# 麻辣教师 第二季 -> 麻辣教师(2026) 第一季（限定UBWEB制作组）
+(?i)(\[麻辣教师 第二季\][._\ -]+GTO[._\ -]+Great[._\ -]+Teacher[._\ -]+Onizuka[._\ -]+2026)[._\ -]+S02E(?=.*UBWEB) => \1.{[tmdbid=325022;type=tv]} S01E
+
 # The House That Dragons Built S03【EDITH】
 (?i)(The[._\ -]+House[._\ -]+That[._\ -]+Dragons[._\ -]+Built)[._\ -]+S03E(?=.*EDITH) => \1.{[tmdbid=325709;type=tv]} S02E
 
