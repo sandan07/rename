@@ -1,3 +1,6 @@
+# 麻辣教师 S02【HHWEB】
+(?i)(Gto[._\ -]+2026)[._\ -]+S02E(?=.*NF)(?=.*HHWEB) => \1.{[tmdbid=325022;type=tv]} S01E
+
 # 时光代理人 第三季 -> tmdbid 123542（限定UBWEB/ADWeb制作组）
 (?i)(Link[._\ -]+Click)(?:[._\ -]+2026)?[._\ -]+S03E(?=.*(?:UBWEB|ADWeb)) => \1.{[tmdbid=123542;type=tv]} S03E
 
