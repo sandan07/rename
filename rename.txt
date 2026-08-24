@@ -1,3 +1,6 @@
+# 绿林女儿 S02【FLUX】
+(?i)(Ronja[._\ -]+the[._\ -]+Robbers[._\ -]+Daughter)[._\ -]+S02E(?=.*NF)(?=.*FLUX) => \1.{[tmdbid=209809;type=tv]} S01E && S01E <> (?i)FLUX >> EP+6
+
 # 醒来变成吸血鬼 S02【CHDWEB】
 (?i)(I[._\ -]+Woke[._\ -]+Up[._\ -]+A[._\ -]+Vampire)[._\ -]+S02E(?=.*NF)(?=.*CHDWEB) => \1.{[tmdbid=235228;type=tv]} S01E && S01E <> (?i)CHDWEB >> EP+8
 
