@@ -1,3 +1,6 @@
+# 醒来变成吸血鬼 S02【CHDWEB】
+(?i)(I[._\ -]+Woke[._\ -]+Up[._\ -]+A[._\ -]+Vampire)[._\ -]+S02E(?=.*NF)(?=.*CHDWEB) => \1.{[tmdbid=235228;type=tv]} S01E && S01E <> (?i)CHDWEB >> EP+8
+
 # 麻辣教师 S02【HHWEB】
 (?i)(Gto[._\ -]+2026)[._\ -]+S02E(?=.*NF)(?=.*HHWEB) => \1.{[tmdbid=325022;type=tv]} S01E
 
