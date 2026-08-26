@@ -1,3 +1,6 @@
+# 福尔摩斯新探案 S05【ADE】
+(?i)(The[._\ -]+Case\-Book[._\ -]+of[._\ -]+Sherlock[._\ -]+Holmes)[._\ -]+S05E(?=.*ADE) => \1.{[tmdbid=289584;type=tv]} S01E
+
 # 绿林女儿 S02【FLUX】
 (?i)(Ronja[._\ -]+the[._\ -]+Robbers[._\ -]+Daughter)[._\ -]+S02E(?=.*NF)(?=.*FLUX) => \1.{[tmdbid=209809;type=tv]} S01E && S01E <> (?i)FLUX >> EP+6
 
