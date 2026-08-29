@@ -1,3 +1,6 @@
+# 极地恶灵：银色恶魔 S03【RAWR】
+(?i)(The[._\ -]+Terror)[._\ -]+S03E(?=.*AMZN)(?=.*RAWR) => \1.{[tmdbid=323903;type=tv]} S01E
+
 # 纸房子：柏林 S02【FLUX】
 (?i)(Berlin[._\ -]+2023)[._\ -]+S02E(?=.*NF)(?=.*FLUX) => \1.{[tmdbid=146176;type=tv]} S01E
 
