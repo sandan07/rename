@@ -1,4 +1,3 @@
-
 # 极地恶灵：银色恶魔 S03【RAWR】
 (?i)(The[._\ -]+Terror)[._\ -]+S03E(?=.*AMZN)(?=.*RAWR) => \1.{[tmdbid=323903;type=tv]} S01E
 
@@ -46,7 +45,7 @@
 (?i)(爱书的下克上：为了成为图书管理员不择手段！)[._\ -]+S04E(?=.*SweetSub) => \1.{[tmdbid=91768;type=tv]} S02E
 
 # 爱书的下克上：为了成为图书管理员不择手段！ S04【VARYG】
-(?i)(爱书的下克上：为了成为图书管理员不择手段！)[._\ -]+S04E(?=.*CR)(?=.*CR)(?=.*VARYG) => \1.{[tmdbid=91768;type=tv]} S02E
+(?i)(爱书的下克上：为了成为图书管理员不择手段！)[._\ -]+S04E(?=.*CR)(?=.*VARYG) => \1.{[tmdbid=91768;type=tv]} S02E
 
 # 陀枪师姐2021 S05【UBWEB】
 (?i)(\[陀枪师姐2021\][._\ -]+Armed[._\ -]+Reaction[._\ -]+2021[._\ -]+2021)[._\ -]+S05E(?=.*UBWEB) => \1.{[tmdbid=117516;type=tv]} S01E
@@ -198,11 +197,15 @@
 (Mystic[._\ -]+Nine)[._\ -]+S02E(?=.*HAMI)(?=.*CHDWEB) => \1.{[tmdbid=271016;type=tv]} S01E
 
 # 九门 S02【QHSTUDIO】
-Mystic.Nine.2026[._\ -]+S02E(?=.*QHSTUDIO) => \1.{[tmdbid=271016;type=tv]} S01E
+(Mystic.Nine.2026)[._\ -]+S02E(?=.*QHSTUDIO) => \1.{[tmdbid=271016;type=tv]} S01E
 
+
+#==============================================================================
+# 剧集专项补充规则
+#==============================================================================
 魔法少女奈叶.Magical.Girl.Lyrical.S01(?=.*HDSWEB) => 魔法少女奈叶 EXCEEDS Gun Blaze Vengeance.{[tmdbid=287075;type=tv]}.S01
-Tomei.na.Yoru.ni.Kakeru.Kimi.to.Me.ni.Mienai.Koi.o.Shita => \1.{[tmdbid=287075;type=tv]}
-\[斗破苍穹\ 第五季\].Fights.Break.Sphere.2024 => \1.{[tmdbid=79481;type=tv]}
+(Tomei.na.Yoru.ni.Kakeru.Kimi.to.Me.ni.Mienai.Koi.o.Shita) => \1.{[tmdbid=309974;type=tv]}
+(\[斗破苍穹\ 第五季\].Fights.Break.Sphere.2024) => \1.{[tmdbid=79481;type=tv]}
 (斗罗大陆Ⅱ绝世唐门[._\ -]+Dou[._\ -]+Luo[._\ -]+Da[._\ -]+Lu)\.S02E(?=.*OurTV) => \1.{[tmdbid=228429;type=tv]} S01E
 (斗破苍穹年番[._\ -]+Fights[._\ -]+Break[._\ -]+Sphere)\.S01E(?=.*OurTV) => \1.{[tmdbid=79481;type=tv]} S05E
 (Wistoria[._\ -]+Wand[._\ -]+and[._\ -]+Sword)\.S02E(?=(?:13|14|15|16|17|18|19|20|21|22|23|24)(?:[._\ -]|$))(?=.*ADWeb) => \1.{[tmdbid=245842;type=tv]} S02E && S02E <> Wistoria >> EP-12
@@ -290,8 +293,6 @@ Escape.Sore.wa.Yukai.no.Hazudatta => escape
 escape(?=.*CHDWEB) => {[tmdbid=299799;type=tv]}
 Saiko.no.Obahan.Nakajima.Haruko.Season.3.S01 => Saiko.no.Obahan.Nakajima.Haruko.S03
 
-Escape.Sore.wa.Yukai.no.Hazudatta => escape
-escape(?=.*CHDWEB) => {[tmdbid=299799;type=tv]}
 For.Eagle.Brothers.Bilingual(?=.*CHDWEB) => For.Eagle.Brothers
 
 The.Cheetah => 猎豹
@@ -303,17 +304,11 @@ Would You Marry Me => 우주메리미
 
 The.Hero.Who.Has.No.Class => Hero Without a Class
 
-Saiko.no.Obahan.Nakajima.Haruko.Season.3.S01 => Saiko.no.Obahan.Nakajima.Haruko.S03
-
 EXchange(?=.*(JKCT|ADWeb)) => 换乘恋爱
 Takryu => {[tmdbid=230926;type=tv]}
 Salon.De.Dol.You.Talk.a.LOT => 살롱드돌
 
-
 aka.Charlie.Sheen => {[tmdbid=298234;type=tv]}
-Takryu => {[tmdbid=230926;type=tv]}
-Salon.De.Dol.You.Talk.a.LOT => 살롱드돌
-
 
 90.Day.Fiance.Happily.Ever.After => {[tmdbid=67757;type=tv]}
 到美国结婚去：婚后篇 => {[tmdbid=67757;type=tv]}
@@ -352,7 +347,6 @@ My.DressUp.Darling.S02E(?=.*MyVideo)(?=.*CHDWEB) => 更衣人偶坠入爱河{[tm
 更衣人偶坠入爱河.My.Dress.Up.Darling.S02E(?=.*NF)(?=.*HDSWEB) => 更衣人偶坠入爱河{[tmdbid=123249;type=tv]}S01E && S01E <> 2025 >> EP+12
 
 #我们不可能成为恋人！绝对不行【ADWeb】
-Watashi.ga.Koibito.ni.Nareru.Wake.Naijan.Murimuri.Muri.ja.Nakatta(?=.*ADWeb) => 我们不可能成为恋人！绝对不行{[tmdbid=277513;type=tv]}
 
 #转生为第七王子，随心所欲的魔法学习之路【ADWeb】
 Tensei.Shitara.Dai.Nana.Ouji.Dattanode.Kimamani.Majutsu.wo.Kiwamemasu.S02E(?=.+ADWeb) => Tensei.Shitara.Dai.Nana.Ouji.Dattanode.Kimamani.Majutsu.wo.Kiwamemasu.S01E
@@ -373,16 +367,17 @@ Kaiju.No.8.S02(?=.*Disney)(?=.*CHDWEB) => Kaijuu.8.gou.S01 && S01E <> Episode >>
 
 Kaiju.No.8.S02(?=.*NF)(?=.*HHWEB) => Kaijuu.8.gou.S01
 
-
 #国色芳华第二季【ADWeb】
 In.the.Name.of.Blossom.S01 => In.the.Name.of.Blossom.S02
 
 Flourished.Peony.S02 => In.the.Name.of.Blossom.S02
 
-
-
 乘风破浪的姐姐.Sisters.Who.Make.Waves.S06 => 乘风2025.S01
 
+
+#==============================================================================
+# 通用识别、字幕与文件名规范化规则
+#==============================================================================
 #字幕组等通用识别词
 episode\.\d{1}
 (?<=\[GM-Team\].*)\[GB\]
@@ -393,7 +388,7 @@ episode\.\d{1}
 [【\[](Fin|END)[】\]]|(?:|\s|\s-\s)(Fin|END)(?=\])|(?<=\d{1,2})_?(Fin|END)
 (?i)\bani\b => ANi
 (?i)\bBaha\b => Baha
-\[ANi\].*?\/\s* => [ANi] 
+\[ANi\].*?\/\s* => [ANi]
 (?i)(?<=\[Baha\].*)\[CHT\]
 (?i)(\[Ani\])(.*?)(\[Baha\]) => \2\3\1
 jibaketa => jibaketa-粤语版
@@ -560,8 +555,10 @@ Billion Meta Lab|\bBML\b => 亿次研同好会
 \bQBZ\b => 碧蓝档案情报站字幕组
 
 
+#==============================================================================
+# NEST 仓库导入的剧集专项修正
+#==============================================================================
 #===================================来自NEST仓库修正=======================================#
-
 
 #从零开始的异世界【ADWeb】
 Re.Zero.kara.Hajimeru.Isekai.Seikatsu.S03 => Re.Zero.kara.Hajimeru.Isekai.Seikatsu.S01 && S01 <> 2024 >> EP+50
@@ -627,8 +624,8 @@ Kinnikuman.Kanpeki.Choujin.Shisohen.S01 => Kinnikuman.Kanpeki.Choujin.Shisohen.S
 #凡人修仙传 虚天战纪【ADWeb】
 A.Record.Of.Mortals.Journey.To.Immortality.S00 => 虚天战纪 S01
 #斗罗大陆2：绝世唐门【ADWeb】
-Soul Land S02 => Soul Land II: The Unrivaled Tang 
-斗罗大陆.Soul.Land.S02 => Soul Land II: The Unrivaled Tang 
+Soul Land S02 => Soul Land II: The Unrivaled Tang
+斗罗大陆.Soul.Land.S02 => Soul Land II: The Unrivaled Tang
 #在地下城寻求邂逅是否搞错了什么【ADE】
 Is.It.Wrong.to.Try.to.Pick.Up.Girls.in.a.Dungeon => Danmachi
 Danmachi.S01OVA(?=.+ADE) => Danmachi.S00E01
@@ -690,10 +687,10 @@ Keep.Running.S09(?=.+ADWeb) => Keep.Running.S13
 Renegade.Immortal.Movie.Shen.Lin.Zhi.Zhan => 仙逆剧场版：神临之战
 #诛仙第三季【ADWeb】
 Jade.Dynasty.S01E(2[7-9]|3[0-9]|4[0-9]|5[0-2])(?=.+ADWeb) => Jade.Dynasty.S02E\1 && S02E <> 2024 >> EP-26
-\[Movie\]
-episode\.\d{1}
-\.(第\d{1,2}集)\. => \1
-(?i)Season( *)0?(\d+) => S\2
+
+#==============================================================================
+# 通用规则补充 / 辅助识别规则
+#==============================================================================
 (?<=SBSUB.*DR.*?)- => part
 \[CHS\_CHT\_JP\]\(\w{8}\)
 \[CHT\_JP\]\(\w{8}\)
@@ -706,24 +703,7 @@ cht&jpn => jptc
 (?<=(VCB-Studio|ANi).*?)IV => S04
 (?<=(VCB-Studio|ANi).*?)III => S03
 (?<=(VCB-Studio|ANi).*?)II => S02
-[【\[](Fin|END)[】\]]|(?:|\s|\s-\s)(Fin|END)(?=\])|(?<=\d{1,2})_?(Fin|END)
-(?<=[\[【].*?(?:组|組|sub|S(?:UB|ub|tudio)|Raw(?:|s)|社)[\]】])(?:(?:\[|【|★|)\d{1,2}月新番(?:\]|】|★|)|)[\[【](.*?)[\]】] => \1
 #(?<=[\W_])(CR|Baha|KKTV|Abema|B-Global|Sentai|MyVideo|AMZN|KKTV|friDay|DSNP|LINETV|NF|Viu)(?=[\W_]) => -\1
-(?i)(CHS|GB|SC)(&|_|＆|\x20)(CHT|BIG5|TC)(&|_|＆|\x20)JA?PN? => 简繁日内封
-(?i)(CHS|GB|SC)_JA?PN?(&|＆|\x20)(CHT|BIG5|TC)_JA?PN? => 简繁日内封
-(?i)(CHS|GB|SC)(&|＆|\x20)(CHT|BIG5|TC) => 简繁内封
-(?i)(CHS|GB|SC)(_|&|＆|\x20)JA?PN? => 简日双语
-(?i)\[JA?PN?(_|&|＆|\x20)?(SC|CHS|GB)\] => [简日双语]
-(.*)(VCB-Studio)(.*)(Ma10p_?|Hi10p_?)(.*) => \1\2\3\5
-S(eason)? ?0?([2-9]) *\[(OVA|OAD)0?\(?(\d)?\)?\] => S0E\2\4
-(S(eason)? ?0?1 *)?\[(OVA|OAD)(\d+)?\] => S0E\4
-(S(eason)? ?\d+)? *\[\d+\(?(OVA|OAD)\)?\] => S0
-(?<=[\W_])4(?:k|K)(?=[\W_]) => 2160p
-(?i)\bSBSUB\b => 银色子弹字幕组
-(?i)\bNekomoe kisstan\b => 喵萌奶茶屋
-(?i)\bOPFansMaplesnow\b => OPFans枫雪动漫
-(?i)\bSakurato\b|樱都字幕组|桜都字幕组|桜都 => 桜都字幕组
-(?i)\bHaruhana\b => ❀拨雪寻春❀
 #(?<=[\W_])CR(?=[\W_]) => Crunchyroll
 #(?<=[\W_])NF(?=[\W_]) => Netflix
 #(?<=[\W_])AMZN(?=[\W_]) => Amazon
@@ -732,18 +712,13 @@ S(eason)? ?0?([2-9]) *\[(OVA|OAD)0?\(?(\d)?\)?\] => S0E\2\4
 #(?<=[\W_])DSNP(?=[\W_]) => Disney+
 #(?<=(1080p|2160p)\.)Max\. => -MAX.
 #(?<=(1080p|2160p)\.)iT\. => -iTunes.
-#(?<=S\d{2}E\d{2}).+(?=(2160|1080)p.+NTb) =>  
+#(?<=S\d{2}E\d{2}).+(?=(2160|1080)p.+NTb) =>
 #(?<!-)(Disney\+|playWEB|Crunchyroll|Netflix|Amazon|AppleTV\+) => -\1
 ## 泛用规则，用于清除多余的别名 ##
 \[ANi\].*\/ => [ANi]
 \[猎户手抄部\].*\/ => [猎户手抄部]
 \[Strange-Raw\].*\/ => [Strange-Raw]
 #视频来源修正
-(?i)\bSBSUB\b => 银色子弹字幕组
-(?i)\bNekomoe kisstan\b => 喵萌奶茶屋
-(?i)\bOPFansMaplesnow\b => OPFans枫雪动漫
-(?i)\bSakurato\b|樱都字幕组|桜都字幕组|桜都 => 桜都字幕组
-(?i)\bHaruhana\b => ❀拨雪寻春❀
 #(?<=[\W_])CR(?=[\W_]) => Crunchyroll
 #(?<=[\W_])NF(?=[\W_]) => Netflix
 #(?<=[\W_])AMZN(?=[\W_]) => Amazon
@@ -751,25 +726,19 @@ S(eason)? ?0?([2-9]) *\[(OVA|OAD)0?\(?(\d)?\)?\] => S0E\2\4
 #(?<=[\W_])DSNP(?=[\W_]) => Disney+
 #(?<=(1080p|2160p)\.)Max\. => -MAX.
 #(?<=(1080p|2160p)\.)iT\. => -iTunes.
-#(?<=S\d{2}E\d{2}).+(?=(2160|1080)p.+NTb) =>  
+#(?<=S\d{2}E\d{2}).+(?=(2160|1080)p.+NTb) =>
 #辅助识别修正词
 #(\b[5-9]\b|\b[1-9][0-9]\b) \[ =>  E\1 [
-(?<=[\[【].*?(?:组|組|sub|S(?:UB|ub|tudio)|Raw(?:|s)|社)[\]】])(?:(?:\[|【|★|)\d{1,2}月新番(?:\]|】|★|)|)[\[【](.*?)[\]】] => \1
-^[\W_](.*?(?:组|組|屋|社|動漫|Lab|sub|S(?:UB|ub|tudio)|Raw(?:|s)|Production))[\W_]+(?:[\W_]+\d{1,2}(?:月(?:新|)番|国漫)[\W_]+|)[\[【](.*?)[\]】] => [\1] \2 
+^[\W_](.*?(?:组|組|屋|社|動漫|Lab|sub|S(?:UB|ub|tudio)|Raw(?:|s)|Production))[\W_]+(?:[\W_]+\d{1,2}(?:月(?:新|)番|国漫)[\W_]+|)[\[【](.*?)[\]】] => [\1] \2
 \(([^\(\)\s]+)\)\.(mp4|mkv) => \1
 [【\[](Fin|END)[】\]]|(?:|\s|\s-\s)(Fin|END)(?=\])|(?<=\d{1,2})(Fin|END)
 Hi10p_1080p => 1080p x264
 Ma10p_1080p => 1080p x265
 HEVC Main10P => x265
-(?<=(VCB-Studio|ANi).*?)2nd Season => S02
-(?<=(VCB-Studio|ANi).*?)IV => S04
-(?<=(VCB-Studio|ANi).*?)III => S03
-(?<=(VCB-Studio|ANi).*?)II => S02
-\[CHS\_CHT\_JP\]\(\w{8}\)
-\[CHT\_JP\]\(\w{8}\)
-\[CHS\_JP\]\(\w{8}\)
-chs&jpn => jpsc
-cht&jpn => jptc
+
+#==============================================================================
+# 旧季度及历史动画识别规则
+#==============================================================================
 # Extra集 屏蔽词
 \(Extra\d\)
 \(Extra #[0-9]*\)
@@ -787,8 +756,8 @@ cht&jpn => jptc
 她來自煩星 第二季 => 福星小子.S01 && 福星小子.S01 <> [1080P] >> EP+22
 Love Live！虹咲學園 學園偶像同好會 短篇動畫 第二季 => {[tmdbid=210511;type=tv;s=2]}
 搖曳露營△ 第三季 => {[tmdbid=76075;type=tv;s=3]}
-王牌酒保 Glass of God => {[tmdbid=225168;type=tv;]} 
-魔王學院的不適任者 => {[tmdbid=97617;type=tv;]}  
+王牌酒保 Glass of God => {[tmdbid=225168;type=tv;]}
+魔王學院的不適任者 => {[tmdbid=97617;type=tv;]}
 为美好的世界献上祝福！3 => 为美好的世界献上祝福！第三季
 约会大作战 DATE A LIVE V => 约会大作战 S5
 魔王學院的不適任者～史上最強的魔王始祖，轉生就讀子孫們的學校～ => 魔王学院的不适任者
@@ -797,7 +766,6 @@ Love Live！虹咲學園 學園偶像同好會 短篇動畫 第二季 => {[tmdbi
 黑執事 寄宿學校篇 => {[tmdbid=50712;type=tv;s=4]}
 為美好的世界獻上祝福！3 => 为美好的世界献上祝福！ S3
 为美好的世界献上祝福！3 => 为美好的世界献上祝福！ S3
-花野井同學與戀愛病 => 花野井君和相思病
 花野井同学与恋爱病 => 花野井君和相思病
 約會大作戰 DATE A LIVE V => 约会大作战 S05
 她來自煩星 第二季 => 福星小子.S01 && 福星小子.S01 <> [1080P] >> EP
@@ -857,7 +825,6 @@ Bungou.Stray.Dogs.S05E => Bungou.Stray.Dogs.S01E && Bungou.Stray.Dogs.S01E <> 20
 #咒术回战
 Jujutsu.Kaisen.S02E => Jujutsu.Kaisen.S01E && Jujutsu.Kaisen.S01E <> 2023 >> EP+24
 # 一念永恒S03【ADWeb】
-(?<=Yi.Nian.Yong.Heng.S03.*?)2024 => 2020
 Yi.Nian.Yong.Heng.S03 => A.Will.Eternal.S01 && S01 <> 2024 >> EP+106
 A.Will.Eternal.S03 => A.Will.Eternal.S01 && S01 <> 2024 >> EP+106
 A.Will.Eternal.2022.S02 => A.Will.Eternal.2020.S01 && A.Will.Eternal.2020.S01 <> 2160p >> EP+52
@@ -872,20 +839,22 @@ NEW GAME!! => NEW GAME!! S02
 听我的电波吧 =>听我的电波吧 动画
 OVERLORD II => OVERLORD S02
 OVERLORD III => OVERLORD S03
-OVERLORD Ⅳ => OVERLORD S03
+OVERLORD Ⅳ => OVERLORD S04
 # 笨蛋测验召唤兽第二季
 # 兼容名称[Yousei-raws] Baka to Test to Shoukanjuu Ni! 08 [BDrip 1920x1080 x264 FLAC].mkv
 Baka to Test to Shoukanjuu Ni! (\d{2,3}) => Baka to Test to Shoukanjuu S02 E\1
 # 笨蛋测验召唤兽第一季
 # 兼容名称[Yousei-raws] Baka to Test to Shoukanjuu 12 [BDrip 1920x1080 x264 FLAC].mkv
 Baka to Test to Shoukanjuu (\d{2,3}) => Baka to Test to Shoukanjuu S01 E\1
+
+#==============================================================================
+# 字幕组名称规范化
+#==============================================================================
 #字幕组修正
-(?i)\bNekomoe kisstan\b => 喵萌奶茶屋
-(?i)\bNekomoe kissaten\b => 喵萌奶茶屋
 KitaujiSub => 北宇治字幕组
 \[orion origin\] => [猎户压制部]
 FYSub|楓葉字幕組 => 枫叶字幕组
-【枫叶字幕组】 => [枫叶字幕组] 
+【枫叶字幕组】 => [枫叶字幕组]
 桜都字幕組|Sakurato => 桜都字幕组
 BeanSub => 豌豆字幕组
 DMG => 动漫国字幕组
@@ -904,71 +873,18 @@ LPSub => 离谱Sub
 LKSUB => 轻之国度字幕组
 Haruhana => ❀拨雪寻春❀
 SBSUB|銀色子彈字幕組 => 银色子弹字幕组
-(?i)\bPCSUB\b => 波洛咖啡厅
-(?i)\bImoeer\b => 启萌字幕组
-(?i)\bKTXP\b => 极影字幕社
-(?i)\bYUI-7\b => 西农YUI汉化组
-(?i)\bSBSUB\b => 银色子弹字幕组
-(?i)\bKyokuSai\b => 極彩字幕组
-(?i)\bSTYHSub\b => 霜庭云花Sub
-(?i)\bDMMOESub\b => 动漫萌Sub
-(?i)\bSWSUB\b => SW字幕组
-RoxyLib => 洛琪希图书馆
-(?i)\bDMMSub\b => 动漫萌Sub
-(?i)\bComicat\b => 漫猫字幕社
-(?i)\bRomanticat\b => 猫恋汉化组
-(?i)\bKissSub\b => 爱恋字幕社
-JPSC&JPTC => 简繁日内封
-(?i)\bOPFansMaplesnow\b => OPFans枫雪动漫
-\[GM-Team\]\[国漫\] => [GM-Team]
-(?i)\bCoolComic404\b => 酷漫字幕组
-(?i)\bSumiSora\b => 澄空学园
-(?i)\bYYDM-11FANS\b => 异域-11番小队
-康复重症 => 康复重症监护室字幕组
-(?i)\bLKSUB\b => 轻之国度字幕组
-(?i)\bKitaujiSub\b => 北宇治字幕组
-(?i)\bFYSub\b => 枫叶字幕组
-DHR&MakariHoshiyume => DHR动研字幕组&茉语星梦
-(?i)\bYYSUB-RAW\b => 夜莺家族
-MSRSub&Todokoi => 野生菌字幕组&届恋字幕组
-(?i)\bTodokoi\b => 届恋字幕组
-(?i)\bHYSUB\b => 幻樱字幕组
-(?i)\bDMG\b => 动漫国字幕组
-(?i)\bigsub\b => 爱咕字幕组
-(?i)\bUHA-Wing\b => 悠哈璃羽字幕社
-(?i)\bH-BBR\b => 氢气烤肉架
-(?i)\bBeanSub\b => 豌豆字幕组
-(?i)\bFZSD\b => 风之圣殿字幕组
-(?i)\bMCE\b => MCE汉化组
-\x20*(&|＆)\x20* => &
-(?i)\borion origin\b => 猎户发布组
-(?i)\bAirota\b => 千夏字幕组
-(?i)\bLPSub\b => 离谱Sub
-(ASSx2|ASS) => 简繁内封
-(?i)\bUHA-WINGS\b => 悠哈璃羽字幕社
-(?i)\bMahoMabo\b => 魔穗字幕组&幻之字幕组
-(?i)\bMabors Sub\b|魔穗字幕组|魔穗 => 魔穗字幕组
-(?i)\bMabors Sub\b|幻之字幕组|幻之 => 幻之字幕组
-(?i)\bsuzume Ryokosha\b => 玲芽旅行团
-(?i)\bHaruhana\b => ❀拨雪寻春❀
-(?i)\bMingYSub\b|\bMingY\b => MingYSub
-(\[|【|&)Lemonade(】|]|&) => \1波子汽水汉化组\2
-(?i)\bXKsub\b|(?i)\bXK SPIRITS\b => 星空字幕组
-(?i)\bSakurato\b|樱都字幕组|桜都字幕组|桜都 => 桜都字幕组
-(?i)\bCoolFansSub\b => 冷番补完字幕组
-(?i)\bShirokoi\b => 白恋字幕组
-(?i)\bFLsnow\b => 雪飘工作室
+
+#==============================================================================
+# 字幕规格规范化
+#==============================================================================
 #字幕规格修正
-(?i)(CHS|GB|SC)(&|_|＆|\x20)(CHT|BIG5|TC)(&|_|＆|\x20)JA?PN? => 简繁日内封
-(?i)(CHS|GB|SC)_JA?PN?(&|＆|\x20)(CHT|BIG5|TC)_JA?PN? => 简繁日内封
-(?i)(CHS|GB|SC)(&|＆|\x20)(CHT|BIG5|TC) => 简繁内封
-(?i)(CHS|GB|SC)(_|&|＆|\x20)JA?PN? => 简日双语
 (?i)(CHT|BIG5|TC)(_|&|＆|\x20)JA?PN? => 繁日双语
 (?i)\[JA?PN?(_|&|＆|\x20)?(SC|CHS|GB)\] => 简日双语
 (?i)\[JA?PN?(_|&|＆|\x20)?(TC|CHT|BIG5)\] => 繁日双语
-\[SweetSub\](.*)\[CHS\] => [SweetSub]\1[简日双语]
-\[CHS\] => [简体内嵌]
-(?i)Season( *)0?(\d+) => S\2
+
+#==============================================================================
+# 儿童动画名称 / TMDB 映射
+#==============================================================================
 #其他儿童动画
 #大耳朵图图
 大耳朵图图 =>  {[tmdbid=131937;type=tv;]}
@@ -1071,10 +987,11 @@ Soreike.Anpanman.Tobase.Kibou.no.hankachi => 面包超人：跳跃吧！希望�
 LetS.Go.Anpanman.Sparkle.Princess.Vanilla.of.the.Land.of.Ice.Cream => 走起！面包超人闪耀！冰激凌国的香草姬
 Eiga.Kureyon.Shinchan.Bakauma.B-kyu.gurume.sabaibaru => 蜡笔小新：超级美味！B级美食大逃亡
 Kureyon.Shinchan.Gekitotsu.Rakugakingudamu.to.Hobo.Shi-Ri.no.Yusha => 蜡笔小新：激战！涂鸦王国和约四位勇士
+
+#==============================================================================
+# 末尾泛用清理与专项补充
+#==============================================================================
 #泛用修正规则，用于去除多余文件名
-\[猎户手抄部\].*\/ => [猎户手抄部]
-\[Strange-Raw\].*\/ => [Strange-Raw]
-\[ANi\].*\/ => [ANi]
 #宝可梦 地平线(枫叶字幕组)
 宝可梦 地平线 太乐巴戈斯的光辉 => 宝可梦 地平线(2023)
 宝可梦 地平线 烈空坐飞升 => 宝可梦 地平线(2023)
