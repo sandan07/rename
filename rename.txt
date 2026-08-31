@@ -1,3 +1,15 @@
+# 飞出个未来 S14【ETHEL】
+(?i)(Futurama)[._\ -]+S14E(?=.*ETHEL) => \1.{[tmdbid=615;type=tv]} S11E
+
+# 飞出个未来 S14【CHDWEB】
+(?i)(Futurama)[._\ -]+S14E(?=.*DSNP)(?=.*CHDWEB) => \1.{[tmdbid=615;type=tv]} S11E
+
+# 飞出个未来 S14【FLUX】
+(?i)(Futurama)[._\ -]+S14E(?=.*DSNP)(?=.*FLUX) => \1.{[tmdbid=615;type=tv]} S11E
+
+# 飞出个未来 S14【CHDWEB】
+(?i)(Futurama)[._\ -]+S14E(?=.*HULU)(?=.*CHDWEB) => \1.{[tmdbid=615;type=tv]} S11E
+
 # 极地恶灵：银色恶魔 S03【RAWR】
 (?i)(The[._\ -]+Terror)[._\ -]+S03E(?=.*AMZN)(?=.*RAWR) => \1.{[tmdbid=323903;type=tv]} S01E
 
