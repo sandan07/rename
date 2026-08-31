@@ -1,3 +1,6 @@
+# 我们的少年时代2 S02【HHWEB】
+(?i)(我们的少年时代2[._\ -]+Boy[._\ -]+Hood)[._\ -]+S02E(?=.*HHWEB) => \1.{[tmdbid=331830;type=tv]} S01E
+
 # 借颜 S03【UBWEB】
 (?i)(\[借颜\][._\ -]+Visage[._\ -]+and[._\ -]+Soul[._\ -]+2026)[._\ -]+S03E(?=.*FRIDAY)(?=.*UBWEB) => \1.{[tmdbid=313397;type=tv]} S01E
 
