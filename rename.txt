@@ -1,3 +1,6 @@
+# 借颜 S03【UBWEB】
+(?i)(\[借颜\][._\ -]+Visage[._\ -]+and[._\ -]+Soul[._\ -]+2026)[._\ -]+S03E(?=.*FRIDAY)(?=.*UBWEB) => \1.{[tmdbid=313397;type=tv]} S01E
+
 # 极地恶灵：银色恶魔 S03【RAWR】
 (?i)(The[._\ -]+Terror)[._\ -]+S03E(?=.*AMZN)(?=.*RAWR) => \1.{[tmdbid=323903;type=tv]} S01E
 
