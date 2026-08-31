@@ -1,3 +1,6 @@
+非你莫属.Only.You.S2026 => 非你莫属.Only.You.S17
+爱情保卫战.Ai.Qing.Bao.Wei.Zhan.S2026 => 爱情保卫战.Ai.Qing.Bao.Wei.Zhan.S17
+
 # 澳大利亚版幸存者 S13【RAWR】
 (?i)(Australian[._\ -]+Survivor)[._\ -]+S13E(?=.*AMZN)(?=.*RAWR) => \1.{[tmdbid=10957;type=tv]} S11E
 
