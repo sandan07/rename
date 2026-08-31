@@ -1,3 +1,6 @@
+# 澳大利亚版幸存者 S13【RAWR】
+(?i)(Australian[._\ -]+Survivor)[._\ -]+S13E(?=.*AMZN)(?=.*RAWR) => \1.{[tmdbid=10957;type=tv]} S11E
+
 # 我们的少年时代2 S02【HHWEB】
 (?i)(我们的少年时代2[._\ -]+Boy[._\ -]+Hood)[._\ -]+S02E(?=.*HHWEB) => \1.{[tmdbid=331830;type=tv]} S01E
 
