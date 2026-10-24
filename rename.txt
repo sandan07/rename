@@ -1,3 +1,15 @@
+# 冰之城墙 S02【ADWEB】
+(?i)(The[._\ -]+Ramparts[._\ -]+of[._\ -]+Ice)[._\ -]+S02E(?=.*NF)(?=.*ADWEB) => \1.{[tmdbid=283428;type=tv]} S01E
+
+# 冰之城墙 S02【CHDWEB】
+(?i)(The[._\ -]+Ramparts[._\ -]+of[._\ -]+Ice)[._\ -]+S02E(?=.*NF)(?=.*CHDWEB) => \1.{[tmdbid=283428;type=tv]} S01E
+
+# 冰之城墙 S02【VARYG】
+(?i)(The[._\ -]+Ramparts[._\ -]+of[._\ -]+Ice)[._\ -]+S02E(?=.*NF)(?=.*VARYG) => \1.{[tmdbid=283428;type=tv]} S01E && S01E <> (?i)(?<=S01E[0-9]{1,4})(?![0-9]) >> EP+14
+
+# 冰之城墙 S02【UBWEB】
+(?i)(Koori[._\ -]+no[._\ -]+Jouheki[._\ -]+2026)[._\ -]+S02E(?=.*NF)(?=.*UBWEB) => \1.{[tmdbid=283428;type=tv]} S01E && S01E <> (?i)(?<=S01E[0-9]{1,4})(?![0-9]) >> EP+14
+
 你好，星期六.H\!6.S2026 => 你好，星期六.H\!6.S05
 甜蜜的任务.Sweet.Tasks.S2026 => 甜蜜的任务.Sweet.Tasks.S08
 非你莫属.Only.You.S2026 => 非你莫属.Only.You.S17
