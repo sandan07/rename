@@ -1,3 +1,6 @@
+# 死神LINETV ADWEB：逐文件内容已确认局部01–10对应41–50、累计41–49保持原号；累计50没有本组文件证据，暂不自动放行
+(?i)^(?:S\d+E\d+\s*[-._ ]+)?(Bleach\.Thousand\.Year\.Blood\.War)\.S04E(0[1-9]|10)(?=\.2026\.1080p\.LINETV\.WEB-DL\.H264\.AAC-ADWeb\.mkv$) => \1.{[tmdbid=30984;type=tv]} S02E\2 && \{\[tmdbid=30984;type=tv\]\} S02E <> (?i)(?<=S02E[0-9]{2})(?![0-9]) >> EP+40
+(?i)^(?:S\d+E\d+\s*[-._ ]+)?(Bleach\.Thousand\.Year\.Blood\.War)\.S04E(4[1-9])(?=\.2026\.1080p\.LINETV\.WEB-DL\.H264\.AAC-ADWeb\.mkv$) => \1.{[tmdbid=30984;type=tv]} S02E\2
 # 时光代理人 S03【UBWEB】；2026第三季对应TMDB S04，仅已核实E01–12，英都篇排除
 (?i)^(?=.*[. _-]2026[. _-])((?:S0*\d+E\d{1,4}(?:(?:E|-E?)\d{1,4})?\s*[-._ ]*)?\[时光代理人[._\ -]+第三季\][._\ -]+Link[._\ -]+Click[._\ -]+2026)[._\ -]+S03E(?=.*[.\s_\-@\[({]UBWEB[\])}]?(?:\.[a-z0-9]+)?$)(?=(?:0?[1-9]|1[0-2])(?![0-9]|(?:E|-E?)[0-9])) => \1.{[tmdbid=123542;type=tv]} S04E
 
@@ -28,12 +31,9 @@
 # 有兽焉 HDSWEB 2023 2160p 原S01E25–28，仅已核实单集
 (?i)^((?:有兽焉[._ -]+)?Fabulous[._ -]+Beasts)[._ -]+S0*1E(?=(?:2[5-8])(?![0-9]|(?:E|-E?)[0-9]))(?=.*[._ -]2023(?=[._ -]))(?=.*[._ -]2160p(?=[._ -]))(?=.*[._ -]HDSWEB(?:\.[a-z0-9]+)?$) => \1.{[tmdbid=139168;type=tv]} S03E && \{\[tmdbid=139168;type=tv\]\} S03E <> (?i)(?<=S03E[0-9]{1,4})(?![0-9]) >> EP-24
 
-# 内容取证确认：美国老爹EDITH/ETHEL S21指定集对应S22；死神ADWEB只放行已确认5/10/45，替换不安全的全范围+40
+# 美国老爹EDITH/ETHEL：仅内容已确认的S21指定集对应TMDB S22
 (?i)^(?:S\d+E\d+\s*[-._ ]+)?(American\.Dad)\.S21E(0[1-5]|0[7-9]|1[01])(?=\.1080p\.WEB\.h264-EDITH\.mkv$) => \1.{[tmdbid=1433;type=tv]} S22E\2
 (?i)^(?:S\d+E\d+\s*[-._ ]+)?(American\.Dad)\.S21E(1[23])(?=\.1080p\.WEB\.h264-ETHEL\.mkv$) => \1.{[tmdbid=1433;type=tv]} S22E\2
-(?i)^(?:S\d+E\d+\s*[-._ ]+)?(Bleach\.Thousand\.Year\.Blood\.War)\.S04E05(?=\.2026\.1080p\.LINETV\.WEB-DL\.H264\.AAC-ADWeb\.mkv$) => \1.{[tmdbid=30984;type=tv]} S02E45
-(?i)^(?:S\d+E\d+\s*[-._ ]+)?(Bleach\.Thousand\.Year\.Blood\.War)\.S04E10(?=\.2026\.1080p\.LINETV\.WEB-DL\.H264\.AAC-ADWeb\.mkv$) => \1.{[tmdbid=30984;type=tv]} S02E50
-(?i)^(?:S\d+E\d+\s*[-._ ]+)?(Bleach\.Thousand\.Year\.Blood\.War)\.S04E45(?=\.2026\.1080p\.LINETV\.WEB-DL\.H264\.AAC-ADWeb\.mkv$) => \1.{[tmdbid=30984;type=tv]} S02E45
 # 吞噬星空 S06【QHSTUDIO】；仅已核实原 E01–52 → E190–241
 (?i)^((?:S0*\d+E\d{1,4}(?:(?:E|-E?)\d{1,4})?\s*[-._ ]*)?\[吞噬星空[._\ -]+第六季\][._\ -]+Swallowed[._\ -]+Star[._\ -]+2025)[._\ -]+S06E(?=.*[.\s_\-@\[({]QHSTUDIO[\])}]?(?:\.[a-z0-9]+)?$)(?=(?:0?[1-9]|[1-4][0-9]|5[0-2])(?![0-9]|(?:E|-E?)[0-9])) => \1.{[tmdbid=101172;type=tv]} S01E && \{\[tmdbid=101172;type=tv\]\} S01E <> (?i)(?<=S01E[0-9]{1,4}(?:(?:E|-E?)[0-9]{1,4})?)(?![0-9]) >> EP+189
 
