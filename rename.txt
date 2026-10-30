@@ -1,3 +1,27 @@
+# 死神 S01【ADWEB】
+(?i)^((?:S0*\d+E\d{1,4}(?:(?:E|-E?)\d{1,4})?\s*[-._ ]*)?BLEACH[._\ -]+Sennen[._\ -]+Kessen[._\ -]+hen[._\ -]+Kashin[._\ -]+tan)[._\ -]+S01E(?=.*[.\s_\-@\[({]ADWEB[\])}]?(?:\.[a-z0-9]+)?$)(?=.*[._ -]2026[._ -])(?=.*[._ -](?:CATCHPLAY|Baha)[._ -]) => \1.{[tmdbid=30984;type=tv]} S02E
+
+# 死神 S04【CHDWEB】
+(?i)^((?:S0*\d+E\d{1,4}(?:(?:E|-E?)\d{1,4})?\s*[-._ ]*)?BLEACH[._\ -]+Thousand[._\ -]+Year[._\ -]+Blood[._\ -]+War)[._\ -]+S04E(?=.*[.\s_\-\[\](){}@](?:DSNP|Disney\+)(?=[.\s_\-\[\](){}@]|$))(?=.*[.\s_\-@\[({]CHDWEB[\])}]?(?:\.[a-z0-9]+)?$)(?=(?:0?[1-9]|10)(?![0-9]|(?:E|-E?)[0-9])) => \1.{[tmdbid=30984;type=tv]} S02E && \{\[tmdbid=30984;type=tv\]\} S02E <> (?i)(?<=S02E[0-9]{1,4}(?:(?:E|-E?)[0-9]{1,4})?)(?![0-9]) >> EP+40
+
+# 死神 S01【VARYG】
+(?i)^((?:S0*\d+E\d{1,4}(?:(?:E|-E?)\d{1,4})?\s*[-._ ]*)?BLEACH[._\ -]+Thousand[._\ -]+Year[._\ -]+Blood[._\ -]+War)[._\ -]+S01E(?=.*[.\s_\-\[\](){}@]DSNP(?=[.\s_\-\[\](){}@]|$))(?=.*[.\s_\-@\[({]VARYG[\])}]?(?:\.[a-z0-9]+)?$) => \1.{[tmdbid=30984;type=tv]} S02E
+
+# 青蛙军曹☆ S01【ADWEB】
+(?i)^((?:S0*\d+E\d{1,4}(?:(?:E|-E?)\d{1,4})?\s*[-._ ]*)?Keroro[._\ -]+Gunsou)[._\ -]+S01E(?=.*[.\s_\-@\[({]ADWEB[\])}]?(?:\.[a-z0-9]+)?$)(?=.*[._ -]2026[._ -])(?=.*[._ -](?:CR|Baha)[._ -]) => \1.{[tmdbid=308977;type=tv]} S01E
+
+# 奈叶EXCEEDS S01【HDSWEB】
+(?i)^((?:S0*\d+E\d{1,4}(?:(?:E|-E?)\d{1,4})?\s*[-._ ]*)?魔法少女奈叶[._\ -]+Magical[._\ -]+Girl[._\ -]+Lyrical)[._\ -]+S01E(?=.*[.\s_\-@\[({]HDSWEB[\])}]?(?:\.[a-z0-9]+)?$)(?=.*[._ -]2026[._ -]) => \1.{[tmdbid=287075;type=tv]} S01E
+
+# 美国老爹 CHDWEB Hulu 发行S20对应TMDB S22
+(?i)^(American[._ -]+Dad!?)[._ -]+S20E(?=.*[._ -](?:CHDWEB)(?:\.[a-z0-9]+)?$)(?=.*[._ -]Hulu[._ -])(?=(?:10[._ -]+Dumbston[._ -]+Checks[._ -]+In|11[._ -]+A[._ -]+Donkeys[._ -]+Shame|12[._ -]+400|13[._ -]+Tales[._ -]+from[._ -]+the[._ -]+Outer[._ -]+Frontier)[._ -]) => \1.{[tmdbid=1433;type=tv]} S22E
+
+# 美国老爹 FLUX 旧集名对应TMDB S21
+(?i)^(American[._ -]+Dad!?)[._ -]+S22E(?=.*[._ -](?:FLUX)(?:\.[a-z0-9]+)?$)(?=.*[._ -](?:DSNP|Disney\+)[._ -])(?=(?:0?3[._ -]+Ive[._ -]+Got[._ -]+a[._ -]+Friend[._ -]+in[._ -]+Me|0?4[._ -]+Touch[._ -]+the[._ -]+Sun[._ -]+A[._ -]+Chimborazo[._ -]+Adventure|0?5[._ -]+Under[._ -]+and[._ -]+over[._ -]+and[._ -]+beside[._ -]+the[._ -]+Boardwalk|0?7[._ -]+An[._ -]+Adult[._ -]+Woman)[._ -]) => \1.{[tmdbid=1433;type=tv]} S21E
+
+# 美国老爹 BLOOM/playWEB 新集名对应TMDB S22
+(?i)^(American[._ -]+Dad!?)[._ -]+S21E(?=.*[._ -](?:BLOOM|playWEB)(?:\.[a-z0-9]+)?$)(?=.*[._ -](?:DSNP|Disney\+)[._ -])(?=(?:0?1[._ -]+Aw[._ -]+Rats[._ -]+a[._ -]+Pool[._ -]+Party|0?2[._ -]+The[._ -]+Flume[._ -]+Flume[._ -]+Room)[._ -]) => \1.{[tmdbid=1433;type=tv]} S22E
+
 # 新网球王子决赛成员决定战 LINETV ADWeb E01–05 映射第三季
 (?i)^(Shin\.Tennis\.no\.Oujisama\.U\.17\.World\.Cup\.Kesshou\.Member\.Ketteisen)\.S01E(0[1-5])(?![0-9]|(?:E|-E?)[0-9])(?=\.2026\.1080p\.LINETV\.WEB-DL\.H264\.AAC-ADWeb\.mkv$) => \1.{[tmdbid=205493;type=tv]} S03E\2
 
@@ -235,7 +259,6 @@
 (?i)(\[小书痴的下克上[._\ -]+领主的养女\][._\ -]+Honzuki[._\ -]+no[._\ -]+Gekokujou[._\ -]+Shisho[._\ -]+ni[._\ -]+Naru[._\ -]+Tame[._\ -]+ni[._\ -]+wa[._\ -]+Shudan[._\ -]+o[._\ -]+Erande[._\ -]+Iraremasen[._\ -]+Ryoushu[._\ -]+no[._\ -]+Youjo[._\ -]+2026)[._\ -]+S04E(?=.*CR)(?=.*UBWEB) => \1.{[tmdbid=91768;type=tv]} S02E
 
 # 死神 S04【CHDWEB】
-(?i)(BLEACH[._\ -]+Thousand\-Year[._\ -]+Blood[._\ -]+War)[._\ -]+S04E(?=.*DSNP)(?=.*CHDWEB) => \1.{[tmdbid=30984;type=tv]} S02E && S02E <> (?i)CHDWEB >> EP+40
 
 # 死神 S04【VARYG】
 (?i)(BLEACH[._\ -]+Thousand[._\ -]+Year[._\ -]+Blood[._\ -]+War)[._\ -]+S04E(?=.*CR)(?=.*VARYG) => \1.{[tmdbid=30984;type=tv]} S02E
@@ -374,7 +397,6 @@
 #==============================================================================
 # 剧集专项补充规则
 #==============================================================================
-魔法少女奈叶.Magical.Girl.Lyrical.S01(?=.*HDSWEB) => 魔法少女奈叶 EXCEEDS Gun Blaze Vengeance.{[tmdbid=287075;type=tv]}.S01
 (Tomei.na.Yoru.ni.Kakeru.Kimi.to.Me.ni.Mienai.Koi.o.Shita) => \1.{[tmdbid=309974;type=tv]}
 (\[斗破苍穹\ 第五季\].Fights.Break.Sphere.2024) => \1.{[tmdbid=79481;type=tv]}
 (斗罗大陆Ⅱ绝世唐门[._\ -]+Dou[._\ -]+Luo[._\ -]+Da[._\ -]+Lu)\.S02E(?=.*OurTV) => \1.{[tmdbid=228429;type=tv]} S01E
