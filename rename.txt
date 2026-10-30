@@ -1,3 +1,6 @@
+# JOJO 飙马野郎 UBWEB 第二期 E04–05 映射第六季
+(?i)^(\[JOJO的奇妙冒险 飙马野郎 第二&第三赛段\]\.JoJo’s\.Bizarre\.Adventure\.Steel\.Ball\.Run\.2026)\.S02E(0[45])(?![0-9]|(?:E|-E?)[0-9])(?=\.1080p\.NF\.WEB-DL\.H264\.AAC-UBWEB\.mkv$) => \1.{[tmdbid=45790;type=tv]} S06E\2
+
 # 海底小纵队 UBWEB S04E25 特别篇
 (?i)^(\[海底小纵队[._ -]+第四季\][._ -]+Octonauts[._ -]+2015)[._ -]+S04E25(?![0-9]|(?:E|-E?)[0-9])(?=.*[. _\-]UBWEB(?:\.[a-z0-9]+)?$) => \1.{[tmdbid=37472;type=tv]} S00E09
 
