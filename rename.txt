@@ -1,3 +1,6 @@
+# 海贼王 ADWeb 普通版累计E1156–1180对应TMDB S23；不扩推旧篇章、其他命名或未确认后续集
+(?i)^(One[._ -]+Piece)[._ -]+S0*1E(?=(?:115[6-9]|11[6-7][0-9]|1180)[._ -]+1999[._ -]+(?:1080p|2160p)[._ -]+WEB[._ -]*DL[._ -]+H26[45][._ -]+AAC[._ -]+ADWeb(?:\.[a-z0-9]+)?$) => \1.{[tmdbid=37854;type=tv]} S23E
+
 # 小猪佩奇 ADWEB 中文发行S12E01-26对应TMDB S09
 (?i)^(?:S0*\d+E\d{1,4}\s*[-._ ]+)?((?:小猪佩奇[._ -]+)?Peppa[._ -]+Pig)[._ -]+S12E(?=(?:0?[1-9]|1[0-9]|2[0-6])(?![0-9]|(?:E|-E?)[0-9]))(?=.*[._ -]2026[._ -])(?=.*[._ -]ADWEB(?:\.[a-z0-9]+)?$) => \1.{[tmdbid=12225;type=tv]} S09E
 
@@ -428,7 +431,6 @@ Diamond.no.Ace.act.II.S02 => Diamond.no.Ace.S04
 (Re[._\ -]+ZERO[._\ -]+Starting[._\ -]+Life[._\ -]+in[._\ -]+Another[._\ -]+World)\.S04E(?=(?:67|68|69|70|71|72|73|74|75|76|77|78|79|80|81|82|83|84|85)(?:[._\ -]|$))(?=.*CHDWEB) => \1.{[tmdbid=65942;type=tv]} S01E
 
 One\.Piece\.1999(?=.*OurTV) => One Piece S23
-One\.Piece\.S01(?=.*ADWeb) => One Piece S23
 
 A.Record.of.a.Mortal's.Journey.to.Immortality => A.Record.of.a.Mortal's.Journey.to.Immortality.{[tmdbid=106449;type=tv]}
 
@@ -1201,3 +1203,4 @@ Kureyon.Shinchan.Gekitotsu.Rakugakingudamu.to.Hobo.Shi-Ri.no.Yusha => 蜡笔小�
 (.+)\[宠物小精灵(.+?地平线)|(.+)\[寵物小精靈(.+?地平線) => \1{[tmdbid=220150]}\2
 AV1.OPUS => AV1.OPUS-7³ACG
 cht => 繁体字幕
+
