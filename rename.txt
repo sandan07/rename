@@ -1,3 +1,6 @@
+# 小猪佩奇 ADWEB 中文发行S12E01-26对应TMDB S09
+(?i)^(?:S0*\d+E\d{1,4}\s*[-._ ]+)?((?:小猪佩奇[._ -]+)?Peppa[._ -]+Pig)[._ -]+S12E(?=(?:0?[1-9]|1[0-9]|2[0-6])(?![0-9]|(?:E|-E?)[0-9]))(?=.*[._ -]2026[._ -])(?=.*[._ -]ADWEB(?:\.[a-z0-9]+)?$) => \1.{[tmdbid=12225;type=tv]} S09E
+
 # 美国老爹 CHDWEB Hulu 已核实E01-09 发行S20对应TMDB S22
 (?i)^(American[._ -]+Dad!?)[._ -]+S20E(?=.*[._ -](?:CHDWEB)(?:\.[a-z0-9]+)?$)(?=.*[._ -]Hulu[._ -])(?=(?:0?1[._ -]+Aw[._ -]+Rats[._ -]+A[._ -]+Pool[._ -]+Party|0?2[._ -]+The[._ -]+Flume[._ -]+Flume[._ -]+Room|0?3[._ -]+Powering[._ -]+Through|0?4[._ -]+Camera[._ -]+Stan|0?5[._ -]+Idol[._ -]+Threat|0?6[._ -]+The[._ -]+Treasure[._ -]+of[._ -]+Old[._ -]+Chinatown|0?7[._ -]+Reaper[._ -]+Madness|0?8[._ -]+Dude[._ -]+Youre[._ -]+Getting[._ -]+a[._ -]+Del|0?9[._ -]+Where[._ -]+the[._ -]+Wild[._ -]+Boars[._ -]+Are)[._ -]) => \1.{[tmdbid=1433;type=tv]} S22E
 
