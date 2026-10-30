@@ -1,3 +1,9 @@
+# 内容取证确认：美国老爹EDITH/ETHEL S21指定集对应S22；死神ADWEB只放行已确认5/10/45，替换不安全的全范围+40
+(?i)^(?:S\d+E\d+\s*[-._ ]+)?(American\.Dad)\.S21E(0[1-5]|0[7-9]|1[01])(?=\.1080p\.WEB\.h264-EDITH\.mkv$) => \1.{[tmdbid=1433;type=tv]} S22E\2
+(?i)^(?:S\d+E\d+\s*[-._ ]+)?(American\.Dad)\.S21E(1[23])(?=\.1080p\.WEB\.h264-ETHEL\.mkv$) => \1.{[tmdbid=1433;type=tv]} S22E\2
+(?i)^(?:S\d+E\d+\s*[-._ ]+)?(Bleach\.Thousand\.Year\.Blood\.War)\.S04E05(?=\.2026\.1080p\.LINETV\.WEB-DL\.H264\.AAC-ADWeb\.mkv$) => \1.{[tmdbid=30984;type=tv]} S02E45
+(?i)^(?:S\d+E\d+\s*[-._ ]+)?(Bleach\.Thousand\.Year\.Blood\.War)\.S04E10(?=\.2026\.1080p\.LINETV\.WEB-DL\.H264\.AAC-ADWeb\.mkv$) => \1.{[tmdbid=30984;type=tv]} S02E50
+(?i)^(?:S\d+E\d+\s*[-._ ]+)?(Bleach\.Thousand\.Year\.Blood\.War)\.S04E45(?=\.2026\.1080p\.LINETV\.WEB-DL\.H264\.AAC-ADWeb\.mkv$) => \1.{[tmdbid=30984;type=tv]} S02E45
 # 吞噬星空 S06【QHSTUDIO】；仅已核实原 E01–52 → E190–241
 (?i)^((?:S0*\d+E\d{1,4}(?:(?:E|-E?)\d{1,4})?\s*[-._ ]*)?\[吞噬星空[._\ -]+第六季\][._\ -]+Swallowed[._\ -]+Star[._\ -]+2025)[._\ -]+S06E(?=.*[.\s_\-@\[({]QHSTUDIO[\])}]?(?:\.[a-z0-9]+)?$)(?=(?:0?[1-9]|[1-4][0-9]|5[0-2])(?![0-9]|(?:E|-E?)[0-9])) => \1.{[tmdbid=101172;type=tv]} S01E && \{\[tmdbid=101172;type=tv\]\} S01E <> (?i)(?<=S01E[0-9]{1,4}(?:(?:E|-E?)[0-9]{1,4})?)(?![0-9]) >> EP+189
 
@@ -282,7 +288,6 @@
 (?i)(Bleach)[._\ -]+S17E(?=.*DSNP)(?=.*NTB) => \1.{[tmdbid=30984;type=tv]} S02E
 
 # 死神 S04【ADWEB】
-(?i)(Bleach[._\ -]+Thousand[._\ -]+Year[._\ -]+Blood[._\ -]+War)[._\ -]+S04E(?=.*LINETV)(?=.*ADWEB) => \1.{[tmdbid=30984;type=tv]} S02E && S02E <> (?i)ADWEB >> EP+40
 
 # 死神 S04【UBWEB】
 (?i)(\[死神[._\ -]+千年血战篇[._\ -]+\-祸进谭\-\][._\ -]+Bleach[._\ -]+Sennen[._\ -]+Kessen\-hen[._\ -]+2026)[._\ -]+S04E(?=.*LINETV)(?=.*UBWEB) => \1.{[tmdbid=30984;type=tv]} S02E && S02E <> (?i)UBWEB >> EP+40
