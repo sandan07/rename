@@ -710,7 +710,7 @@ episode\.\d{1}
 (?<=\[GM-Team\].*)\[GB\]
 \[Movie\]
 (?i)(?<=(\[Amor压制组\].*))Netflix
-(?i)E\d+(?!E\d)[A-Z]
+(?i)E\d+(?!E\d)(?!V\d)[A-Z]
 \[[A-Z0-9]{8}\](?=(?i)\.(chs|cht|sc|tc|jpn?|ass|srt|mp4|mkv|avi))
 [【\[](Fin|END)[】\]]|(?:|\s|\s-\s)(Fin|END)(?=\])|(?<=\d{1,2})_?(Fin|END)
 (?i)\bani\b => ANi
@@ -1057,7 +1057,7 @@ cht&jpn => jptc
 #辅助识别修正词
 #(\b[5-9]\b|\b[1-9][0-9]\b) \[ =>  E\1 [
 ^[\W_](.*?(?:组|組|屋|社|動漫|Lab|sub|S(?:UB|ub|tudio)|Raw(?:|s)|Production))[\W_]+(?:[\W_]+\d{1,2}(?:月(?:新|)番|国漫)[\W_]+|)[\[【](.*?)[\]】] => [\1] \2
-\(([^\(\)\s]+)\)\.(mp4|mkv) => \1
+\(([^\(\)\s]+)\)\.(mp4|mkv) => \1.\2
 [【\[](Fin|END)[】\]]|(?:|\s|\s-\s)(Fin|END)(?=\])|(?<=\d{1,2})(Fin|END)
 Hi10p_1080p => 1080p x264
 Ma10p_1080p => 1080p x265
@@ -1324,5 +1324,5 @@ Kureyon.Shinchan.Gekitotsu.Rakugakingudamu.to.Hobo.Shi-Ri.no.Yusha => 蜡笔小�
 宝可梦 地平线 烈空坐飞升 => 宝可梦 地平线(2023)
 宝可梦 地平线 超级电压 => 宝可梦 地平线(2023)
 (.+)\[宠物小精灵(.+?地平线)|(.+)\[寵物小精靈(.+?地平線) => \1{[tmdbid=220150]}\2
-AV1.OPUS => AV1.OPUS-7³ACG
+# AV1.OPUS => AV1.OPUS-7³ACG
 cht => 繁体字幕
