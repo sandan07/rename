@@ -710,10 +710,10 @@ episode\.\d{1}
 (?<=\[GM-Team\].*)\[GB\]
 \[Movie\]
 (?i)(?<=(\[Amor压制组\].*))Netflix
-(?i)E\d+(?!E\d)(?!V\d)[A-Z]
+(?i)(?<![0-9a-f])E\d+(?!E\d)(?!V\d)[A-Z](?![0-9a-f])
 \[[A-Z0-9]{8}\](?=(?i)\.(chs|cht|sc|tc|jpn?|ass|srt|mp4|mkv|avi))
 [【\[](Fin|END)[】\]]|(?:|\s|\s-\s)(Fin|END)(?=\])|(?<=\d{1,2})_?(Fin|END)
-(?i)\bani\b => ANi
+(?i)(?<=\[)ani(?=\]) => ANi
 (?i)\bBaha\b => Baha
 \[ANi\].*?\/\s* => [ANi]
 (?i)(?<=\[Baha\].*)\[CHT\]
@@ -736,7 +736,7 @@ Deadmau- RAWS => Deadmau-Raws
 (?i)\bSTYHSub\b => 霜庭云花Sub
 (?i)\bDMMOESub\b => 动漫萌Sub
 (?i)\bSWSUB\b => SW字幕组
-II => S2
+(?<![A-Za-z])II(?![A-Za-z]) => S2
 RoxyLib => 洛琪希图书馆
 (?i)\bDMMSub\b => 动漫萌Sub
 (?i)\bComicat\b => 漫猫字幕社
@@ -791,11 +791,11 @@ Rakudai Majo Fuuka To Yami No => 落第魔女
 AKito => AKito秋人
 ASSx1 => 简体内封
 (?i)\bLPSub\b => 离谱Sub
-(ASSx2|ASS) => 简繁内封
+(?<![A-Za-z])(ASSx2|ASS)(?![A-Za-z]) => 简繁内封
 (?i)\bUHA-WINGS\b => 悠哈璃羽字幕社
 (?i)\bMahoMabo\b => 魔穗字幕组&幻之字幕组
 (?i)\bMabors Sub\b|魔穗字幕组|魔穗 => 魔穗字幕组
-(?i)\bMabors Sub\b|幻之字幕组|幻之 => 幻之字幕组
+(?i)\bMabors Sub\b|幻之字幕组 => 幻之字幕组
 (?i)\bsuzume Ryokosha\b => 玲芽旅行团
 (?i)\bHaruhana\b => ❀拨雪寻春❀
 (?i)\bMingYSub\b|\bMingY\b => MingYSub
@@ -808,11 +808,47 @@ ASSx1 => 简体内封
 (?i)(CHS|GB|SC)(&|_|＆|\x20)(CHT|BIG5|TC)(&|_|＆|\x20)JA?PN? => 简繁日内封
 (?i)(CHS|GB|SC)_JA?PN?(&|＆|\x20)(CHT|BIG5|TC)_JA?PN? => 简繁日内封
 (?i)(CHS|GB|SC)(&|＆|\x20)(CHT|BIG5|TC) => 简繁内封
-(?i)(CHS|GB|SC)(_|&|＆|\x20)JA?PN? => 简日双语
+(?i)(?<![A-Za-z])(CHS|GB|SC)(_|&|＆|\x20)JA?PN?(?![A-Za-z]) => 简日双语
 (?i)\[JA?PN?(_|&|＆|\x20)?(SC|CHS|GB)\] => [简日双语]
 \[SweetSub\](.*)\[CHS\] => [SweetSub]\1[简日双语]
 × => x
 \[CHS\] => [简体内嵌]
+# 字幕标签补漏（2026-11-05 btseries 原名回放）
+(?i)(?<![A-Za-z])JA?PN?_(CHS|GB|SC)_(CHT|BIG5|TC)(?![A-Za-z]) => 简繁日内封
+(?i)(?<![A-Za-z])(CHT|BIG5|TC)(_|&|＆|\x20)JA?PN?(?![A-Za-z]) => 繁日双语
+(?i)\[JA?PN?(_|&|＆|\x20)?(TC|CHT|BIG5)\] => [繁日双语]
+(?<![A-Za-z.])JPSC(?![A-Za-z]) => 简日双语
+(?<![A-Za-z.])JPTC(?![A-Za-z]) => 繁日双语
+(?i)\[(GB_CN|GB_MP4|GB_MKV)\] => [简体内嵌]
+(?i)\[(BIG5_TW|BIG5_MP4|BIG5_MKV)\] => [繁体内嵌]
+(?i)(?<![A-Za-z])SRTx2(?![A-Za-z]) => 简繁内封
+(?<![A-Za-z])SRT(?:\+PGS)?(?![A-Za-z0-9x])(.*?)(?<![A-Za-z])CHT(?![A-Za-z])(?=.*\.mkv$) => \1繁体内封
+(?<![A-Za-z])CHT(?![A-Za-z])(.*?)(?<![A-Za-z])SRT(?:\+PGS)?(?![A-Za-z0-9x])(?=.*\.mkv$) => 繁体内封\1
+\[CHT\] => [繁体内嵌]
+(?<=[\[( _])CHS(?=[\]) _])(?!.*\.(ass|srt)$) => 简体内嵌
+(?<=[\[( _])CHT(?=[\]) _])(?!.*\.(ass|srt)$) => 繁体内嵌
+(?i)(?<![A-Za-z])Multi-?Subs?(?![A-Za-z]) => 多语字幕
+简英(?:双语|内嵌)? => 简英双语
+# 字幕待定项决定（owner 2026-11-05）
+([简繁])日(?:双语|雙語)[內内]嵌 => \1日内嵌
+繁日[內内]嵌 => 繁日内嵌
+繁日雙語 => 繁日双语
+中日双语(?:字幕)? => 简日双语
+(?<=内封)PGS
+\+?(?<![A-Za-z])PGS(?![A-Za-z])
+(?<![A-Za-z])SRT(?![A-Za-z0-9x])(?!.*\.(ass|srt)$)
+(?<![A-Za-z0-9])YUE(?![A-Za-z]) => 粤语
+(?i)(?<![A-Za-z0-9])Subs?[ -]?ITA(?![A-Za-z]) => 意字
+(?<![A-Za-z0-9])ITA(?![A-Za-z]) => 意配
+(?<![A-Za-z0-9])VOSTFR(?![A-Za-z]) => 法字
+(?<![A-Za-z0-9])(FRENCH|VFF|VFQ|VF)(?![A-Za-z]) => 法配
+(?<![A-Za-z0-9])GERMAN(?:[. ]DUBBED)?(?![A-Za-z]) => 德配
+繁体字幕 => 繁体内嵌
+# 地区版本与配音（2026-11-05，防止同季多版本 STRM 撞名）
+[（(]\s*(?:僅限?|仅限?)?台[灣湾](?:地[區区])?(?:限定)?\s*[）)] => [台湾版]
+[（(]\s*(?:僅限?|仅限?)?港澳(台)?(?:地[區区])?(?:限定)?\s*[）)] => [港澳\1版]
+(?i)(?<![A-Za-z])Mandarin[ ._-]?Dub(?:bed)?(?:\s*\(CN\))? => 国语
+(?i)(?<![A-Za-z])Cantonese[ ._-]?Dub(?:bed)?(?:\s*\(HK\))? => 粤语
 (?i)Season( *)0?(\d+) => S\2
 #(?<=[\W_])(CR|Baha|KKTV|Abema|B-Global|Sentai|MyVideo|AMZN|KKTV|friDay|DSNP|LINETV|NF|Viu)(?=[\W_]) => -\1
 (\[|【|&|x|×)DAY(】|]|&|x|×) => \1DAY字幕组\2
@@ -831,15 +867,15 @@ S(eason)? ?0?([2-9]) *\[(OVA|OAD)0?\(?(\d)?\)?\] => S0E\2\4
 \.sc\.(ass|srt) => .chs.\1
 \.tc\.(ass|srt) => .cht.\1
 (?i)(\[(WEBDL|Webrip)\]\[1080p\])(\[E\d\d\]) => \3\1
-(?i)(雪飘工作室.*\[1080p\])\.(chs|cht)\.(ass|srt) => \1[简繁外挂].\2.\3
-(?i)(雪飘工作室.*\[1080p\])\.(mkv) => \1[简繁外挂].\2
+(?i)((?:雪飘工作室|FLsnow).*\[1080p\])\.(chs|cht)\.(ass|srt) => \1[简繁外挂].\2.\3
+(?i)((?:雪飘工作室|FLsnow).*\[1080p\])\.(mkv) => \1[简繁外挂].\2
 (?i)(?<=\[?((one *_?piece)|((Detective *_?)?CONAN))]?)\[(\d{4})\] => [E\5]
-(\[风车字幕组\]\[?Detective Conan\]?\[)(\d{4})(?=\[) => \1E\2
+(\[(?:风车字幕组|WMSUB-\d\dth)\]\[?Detective Conan\]?\[)(\d{4})(?=\[) => \1E\2
 简日特效字幕 => 简日双语
 (?<=[\W_])((H?MAX)|ATVP)(?=[\W_]) => -\1
 (?<=[\W_])ATVP(?=[\W_]) => AppleTV+
 (?<=[\W_])DSNP(?=[\W_]) => Disney+
-(北宇治字幕组.*)\.(mp4|mkv) => \1[1080p].\2
+(?i)((?:北宇治字幕组|KitaujiSub).*)\.(mp4|mkv) => \1[1080p].\2
 (?<=[\W_x])FSD(?=[\W_x]) => FSD字幕组
 #(?<!-)(Disney\+|playWEB|Crunchyroll|Netflix|Amazon|AppleTV\+) => -\1
 (?i)(CHS|GB|SC)_(CHT|BIG5|TC) => 简繁内封
@@ -847,26 +883,26 @@ S(eason)? ?0?([2-9]) *\[(OVA|OAD)0?\(?(\d)?\)?\] => S0E\2\4
 (?i)(CHS|GB|SC)-JA?PN? => 简日双语
 \b康复中心\b => 康复中心字幕组
 
-(?i)(\[轻之国度字幕组\].*)(?=\.mp4) => \1.简体内嵌
+(?i)(\[(?:轻之国度字幕组|LKSUB)\].*)(?=\.mp4) => \1.简体内嵌
 (?<=[a-zA-Z\u3040-\u309F\u30A0-\u30FF\u31F0-\u31FF\u4e00-\u9fa5])_(0?\d)(?=[\W_]((\[E?\d{1,4}\])|(\d{1,4})|(第\d+(集|话)))[\W_]) => S\1
 \b冷番补完\b => 冷番补完字幕组
-(?<=(康复中心字幕组.*))\.mp4 => .1080p.mp4
+(?<=(康复中心(?:字幕组)?.*))\.mp4 => .1080p.mp4
 (?i)\byoutube\b => -YouTube
 (?i)(?<!-)\bRemux\b => -Remux
 (X酱.*)(\.(mp4|mkv)) => \1.简体内嵌.1080p\2
 (?i)\bkamigami\b => 诸神字幕组
-(?<=诸神字幕组.*)\.mkv => .简繁日内封.mkv
+(?i)(?<=(?:诸神字幕组|kamigami).*)\.mkv => .简繁日内封.mkv
 (?<=FSD.*)(\.mp4|\.mkv) => .简日双语.1080p\1
-(DAY字幕组.*)(?=\.mp4) => \1 [简日双语]
+((?:DAY字幕组|[\[【&x×]DAY[】\]&x×]).*)(?=\.mp4) => \1 [简日双语]
 \bbad sub\b => 摆烂字幕组
-(\[極彩字幕组\].*)(?=\.mkv) => \1[简繁日内封]
+(?i)(\[(?:極彩字幕组|KyokuSai)\].*)(?=\.mkv) => \1[简繁日内封]
 (?i)(?<=[\W_])CATCHPLAY(?=[\W_]) => -CatchPlay
 (?i)(?<=Adam-kun.*)\bUncensored\b => 无修
 (?i)\b(2(?=nd)|3(?=rd)|[4-9](?=th))[A-Za-z][A-Za-z]\b( (Season|STAGE))?(?!([ \.][A-Z]?[a-z]+){2,}\b) => S\1
 (?i)(?<=\[云光字幕组\] *)[\u4e00-\u9fa5].*[\u4e00-\u9fa5].(?=.*\[E?\d\d\])
 (?i)(?<=\[云光字幕组\] *)[\W_]*([\w-]{2,})[\W_]*(?=.*(\1) *\[E?\d\d\])
 (?i)\bMMSUB\b => 咪梦字幕组
-(\[咪梦字幕组\].*)(?=\.mkv) => \1[简繁内封]
+(?i)(\[(?:咪梦字幕组|MMSUB)\].*)(?=\.mkv) => \1[简繁内封]
 (NEO·QSW.*)(?=\.mp4) => \1[简日双语]
 (?<=(1080p|2160p)\.)Max\. => -MAX.
 (?<=(1080p|2160p)\.)iT\. => -iTunes.
