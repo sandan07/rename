@@ -1,3 +1,5 @@
+(?i)^Genso\.Suikoden(?=\.S01E0[1-5]\.2026\.1080p\.Baha\.WEB-DL\.x264\.AAC-ADWeb\.mp4$) => 幻想水浒传 {[tmdbid=285710;type=tv]}
+(?i)^Yowaki\.MAX\.Reijou\.Nano\.ni\.Ratsuwan\.Konyakusha\.sama\.no\.Kake(?=\.S01E0[1-5]\.2026\.1080p\.Baha\.WEB-DL\.x264\.AAC-ADWeb\.mp4$) => Yowaki.Max.Reijou.Nano.ni.Ratsuwan.Konyakusha.sama.no.Kake
 (?i)^Cut\.Dad\.Are\.We\.the\.Best\.Family(?=\.S01E(?:01|02)\.2026\.1080p\.friDay\.WEB-DL\.H264\.AAC-ADWeb\.mkv$) => 够了，爸爸 {[tmdbid=331304;type=tv]}
 # 缔灵爱水心缠 ADWeb 已确认 E01–E05
 (?i)^(缔灵爱\.Divine\.Love)\.S02E(?=0[1-5]\.2026\.2160p\.WEB-DL\.H265\.DDP5\.1-ADWeb\.mkv$) => \1.{[tmdbid=331213;type=tv]} S01E
