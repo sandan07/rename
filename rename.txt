@@ -1,3 +1,6 @@
+# 缔灵爱水心缠 ADWeb 已确认 E01–E05
+(?i)^(缔灵爱\.Divine\.Love)\.S02E(?=0[1-5]\.2026\.2160p\.WEB-DL\.H265\.DDP5\.1-ADWeb\.mkv$) => \1.{[tmdbid=331213;type=tv]} S01E
+
 # 药屋少女的呢喃 S2 BD「[Kusuriya no Hitorigoto S2][集号]」= TMDB S01E25-48（Mini Anime 不在规则内）
 \[Kusuriya no Hitorigoto S2\]\[(\d{1,3})\](?=\[) => Kusuriya no Hitorigoto {[tmdbid=220542;type=tv]} S01E\1  && \{\[tmdbid=220542;type=tv\]\} S01E <> (?i)(?<=S01E[0-9]{1,4})(?![0-9]) >> EP+24
 
