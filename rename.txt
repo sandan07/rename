@@ -1,3 +1,24 @@
+# 药屋少女的呢喃 S2 BD「[Kusuriya no Hitorigoto S2][集号]」= TMDB S01E25-48（Mini Anime 不在规则内）
+\[Kusuriya no Hitorigoto S2\]\[(\d{1,3})\](?=\[) => Kusuriya no Hitorigoto {[tmdbid=220542;type=tv]} S01E\1  && \{\[tmdbid=220542;type=tv\]\} S01E <> (?i)(?<=S01E[0-9]{1,4})(?![0-9]) >> EP+24
+
+# 药屋少女的呢喃 S2 WEB「Kusuriya no Hitorigoto S2 - 集号」= TMDB S01E25-48
+Kusuriya no Hitorigoto S2 - (\d{1,3})(?= ) => {[tmdbid=220542;type=tv]} S01E\1 && \{\[tmdbid=220542;type=tv\]\} S01E <> (?i)(?<=S01E[0-9]{1,4})(?![0-9]) >> EP+24
+
+# 奇妙萌可之闪亮宝石 Twinkle Catch! Teenieping = TMDB S02
+Twinkle Catch! Teenieping - (?=\d{1,3}[ .]) => {[tmdbid=136915;type=tv]} S02E
+
+# 奇妙萌可之魔法钥匙 Secret Catch! Teenieping = TMDB S03
+Secret Catch! Teenieping - (?=\d{1,3}[ .]) => {[tmdbid=136915;type=tv]} S03E
+
+# 卡片战斗先导者 Divinez 第三季「DELUXE篇」= TMDB S07
+卡片戰鬥!! 先導者 Divinez 第三季「DELUXE篇」 - (?=\d{1,3} ) => {[tmdbid=106301;type=tv]} S07E
+
+# 卡片战斗先导者 Divinez 第四季「DELUXE 決勝篇」= TMDB S08
+卡片戰鬥!! 先導者 Divinez 第四季「DELUXE 決勝篇」 - (?=\d{1,3} ) => {[tmdbid=106301;type=tv]} S08E
+
+# 卡片战斗先导者 Divinez 第五季「幻真星戰篇」= TMDB S09
+卡片戰鬥!! 先導者 Divinez 第五季「幻真星戰篇」 - (?=\d{1,3} ) => {[tmdbid=106301;type=tv]} S09E
+
 (?i)^(The[._ -]+Floor)[._ -]+S06E(?=03[._ -]+In[._ -]+The[._ -]+Crosshairs[._ -]+1080p[._ -]+CRAV[._ -]+WEB-DL[._ -]+DD5[._ -]+1[._ -]+H[._ -]+264-BLOOM\.mkv$) => \1.{[tmdbid=231730;type=tv]} S06E
 
 # Doctor X 白色黑手党时代 HHWEB 2026 S01E02 身份映射
